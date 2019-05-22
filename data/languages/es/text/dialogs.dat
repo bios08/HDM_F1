@@ -1,0 +1,244 @@
+dialog{
+  id = "_abc",
+  text = [[
+Chaito
+]],
+}
+
+dialog{
+  id = "_game.pause",
+  text = [[
+  $? Continue
+  $? Save and Continue
+  $? Quit
+]],
+}
+
+dialog{
+  id = "_general.saved_game.1",
+  text = [[
+Juego guardado!
+]],
+}
+
+dialog{
+  id = "_puerto_azul.intro1",
+  text = [[
+PROTAGONISTA:
+Oh! Dónde estoy...
+]],
+}
+
+dialog{
+  id = "_puerto_azul.intro2",
+  text = [[
+PROTAGONISTA:
+Pero...
+]],
+}
+
+dialog{
+  id = "_puerto_azul.intro3",
+  text = [[
+PROTAGONISTA:
+¿Por qué estoy en este muelle?
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.0",
+  next = "_puerto_azul.npcs.carlos.1",
+  text = [[
+PROTAGONISTA:
+Oh!... Disculpa joven, dónde estoy?
+¿Por qué estoy en medio del mar?
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.1",
+  next = "_puerto_azul.npcs.carlos.2",
+  text = [[
+NIÑO MISTERIOSO:
+Hola...
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.10",
+  text = [[
+PROTAGONISTA:
+¿¿¿???
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.2",
+  next = "_puerto_azul.npcs.carlos.3",
+  text = [[
+PROTAGONISTA:
+Hola!. Si. Te preguntaba si me
+podrías decir ¿donde estoy?
+Estoy desorientado...
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.3",
+  next = "_puerto_azul.npcs.carlos.4",
+  text = [[
+NIÑO MISTERIOSO:
+Si se lo digo no me creería...
+Pero usted lo descubrira. 
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.4",
+  text = [[
+PROTAGONISTA:
+¿Qué?.... No entiendo
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.5",
+  next = "_puerto_azul.npcs.carlos.6",
+  text = [[
+CARLOS:
+Parece que ha leido el mensaje
+del papel. 
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.6",
+  next = "_puerto_azul.npcs.carlos.7",
+  text = [[
+NIÑO MISTERIOSO:
+Venga, acompañeme. Necesita
+descanzar. Hay cosas que 
+debemos enseñarles.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.7",
+  next = "_puerto_azul.npcs.carlos.8",
+  text = [[
+PROTAGONISTA:
+¿Enseñarme?...
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.8",
+  next = "_puerto_azul.npcs.carlos.9",
+  text = [[
+PROTAGONISTA:
+Si solo quiero irme a casa!!!
+]],
+}
+
+dialog{
+  id = "_puerto_azul.npcs.carlos.9",
+  text = [[
+NIÑO MISTERIOSO:
+¿A casa? Ah, se refiere a
+su mundo.
+Solo tenga paciencia, y esté
+atento a todo lo que hay
+alrededor.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.bote1",
+  text = [[
+PROTAGONISTA:
+Huy! Yo llegué en esto? De la que
+me salvé.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.carta1.1",
+  text = [[
+Un pequeño papel. Pareciera
+ser que hay una frase escrita.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.carta1.2",
+  text = [[
+La nota dice:
+  "el que calma el rugido de los 
+mares, el estruendo de las olas,
+y el tumulto de los pueblos".
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.carta1.3",
+  text = [[
+Mhh... Qué quiere decir esta nota.
+Qué extraño.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.cartel1",
+  text = [[
+Casa de reposo ->
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.cofre1",
+  text = [[
+PROTAGONISTA:
+Este cofre está cerrado.
+Mhhh.., Y es de buena madera.
+]],
+}
+
+dialog{
+  id = "wise_man",
+  next = "wise_man.thanks",
+  next2 = "wise_man.insisting",
+  question = "1",
+  skip = "current",
+  text = [[
+I can feel courage
+in you.
+Do you think you can protect
+the Princess?
+Definitely!
+No way
+]],
+}
+
+dialog{
+  id = "wise_man.insisting",
+  next = "wise_man.thanks",
+  next2 = "wise_man.insisting",
+  question = "1",
+  text = [[
+I beg you.
+You are the only one
+one able to protect
+our kingdom...
+Sure
+No way
+]],
+}
+
+dialog{
+  id = "wise_man.thanks",
+  text = [[
+I knew I could count on
+your immense bravery.
+]],
+}
+

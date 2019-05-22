@@ -1,0 +1,118 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "ground_wood_mosaic_big_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "carpet_red_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "carpet_red_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 8,
+  height = 16,
+  pattern = "carpet_red_4",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "carpet_red_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "carpet_red_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 8,
+  width = 16,
+  height = 8,
+  pattern = "carpet_red_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "carpet_red_5",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "carpet_red",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "carpet_red_7",
+  tileset = "house",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 168,
+  y = 221,
+  direction = 1,
+}
+

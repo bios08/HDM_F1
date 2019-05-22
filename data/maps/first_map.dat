@@ -1,0 +1,785 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "ground_wood_mosaic_big_1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 32,
+  width = 240,
+  height = 8,
+  pattern = "wall_brown_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "wall_brown_4",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "wall_brown_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 8,
+  pattern = "wall_brown_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_5",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_7",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 24,
+  width = 256,
+  height = 8,
+  pattern = "wall_up_brown_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_up_brown_4",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 176,
+  pattern = "wall_up_brown_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 8,
+  pattern = "wall_up_brown_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_5",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_7",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 16,
+  width = 272,
+  height = 8,
+  pattern = "wall_up_brown_2",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 24,
+  width = 8,
+  height = 192,
+  pattern = "wall_up_brown_4",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 8,
+  height = 192,
+  pattern = "wall_up_brown_0",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 216,
+  width = 272,
+  height = 8,
+  pattern = "wall_up_brown_6",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_3",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_1",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_5",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "wall_brown_7",
+  tileset = "house",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 8,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 200,
+  width = 256,
+  height = 8,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 8,
+  height = 160,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 16,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 200,
+  width = 272,
+  height = 16,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 40,
+  width = 16,
+  height = 160,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 16,
+  height = 160,
+  pattern = "ground_shadow_60",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "Water_shallow_spotted_big",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "17",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "20",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 208,
+  width = 48,
+  height = 8,
+  pattern = "19",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 144,
+  width = 32,
+  height = 32,
+  pattern = "5",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 40,
+  width = 32,
+  height = 32,
+  pattern = "4",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "3",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "17",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 136,
+  width = 144,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "10",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 8,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 96,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 48,
+  width = 32,
+  height = 56,
+  pattern = "4",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 8,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "11",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 144,
+  width = 48,
+  height = 64,
+  pattern = "18",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "11",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 112,
+  width = 40,
+  height = 32,
+  pattern = "8",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "9",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "12",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "14",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "15",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "19",
+  tileset = "oceanheart_outdoors_1",
+}
+
+npc{
+  name = "Visita",
+  layer = 1,
+  x = 96,
+  y = 165,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 0,
+  sprite = "hero/tunic1",
+  behavior = "item#tunic",
+}
+
+npc{
+  name = "carlos",
+  layer = 1,
+  x = 248,
+  y = 21,
+  direction = 3,
+  subtype = 1,
+  sprite = "hero/tunic2",
+}
+
+npc{
+  layer = 1,
+  x = 264,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#_puerto_azul.senales.cartel1",
+}
+
+npc{
+  name = "Cofre1",
+  layer = 1,
+  x = 80,
+  y = 197,
+  properties = {
+    {
+      key = "co",
+      value = "casita",
+    },
+  },
+  direction = 3,
+  subtype = 1,
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 80,
+  y = 165,
+  direction = 0,
+}
+
+npc{
+  name = "bote1",
+  layer = 1,
+  x = 64,
+  y = 165,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#_puerto_azul.senales.bote1",
+}
+
+npc{
+  name = "carta1",
+  layer = 1,
+  x = 128,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  name = "save_book",
+  layer = 1,
+  x = 32,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+}
+
+teletransporter{
+  name = "tele1",
+  layer = 1,
+  x = 304,
+  y = 24,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "Salida",
+  destination = "destination",
+}
+
