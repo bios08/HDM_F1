@@ -1,11 +1,12 @@
 properties{
-  x = 0,
+  x = 16,
   y = 0,
-  width = 320,
+  width = 400,
   height = 240,
   min_layer = 0,
   max_layer = 2,
   tileset = "house",
+  music = "same",
 }
 
 tile{
@@ -530,6 +531,36 @@ tile{
 }
 
 tile{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 80,
+  height = 240,
+  pattern = "20",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "cave_2",
+}
+
+tile{
   layer = 1,
   x = 16,
   y = 96,
@@ -689,6 +720,26 @@ tile{
   tileset = "oceanheart_outdoors_1",
 }
 
+tile{
+  layer = 1,
+  x = 352,
+  y = 8,
+  width = 64,
+  height = 48,
+  pattern = "2",
+  tileset = "cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "21",
+  tileset = "oceanheart_outdoors_1",
+}
+
 npc{
   name = "Visita",
   layer = 1,
@@ -774,12 +825,45 @@ npc{
 teletransporter{
   name = "tele1",
   layer = 1,
-  x = 304,
+  x = 384,
   y = 24,
   enabled_at_start = false,
   width = 16,
   height = 16,
   destination_map = "Salida",
   destination = "destination",
+}
+
+teletransporter{
+  name = "tele1_2",
+  layer = 1,
+  x = 384,
+  y = 8,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "Salida",
+  destination = "destination",
+}
+
+teletransporter{
+  name = "tele1_3",
+  layer = 1,
+  x = 384,
+  y = 40,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "Salida",
+  destination = "destination",
+}
+
+npc{
+  layer = 1,
+  x = 344,
+  y = 21,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#_puerto_azul.senales.serrucho1",
 }
 

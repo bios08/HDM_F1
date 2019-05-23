@@ -68,6 +68,7 @@ tile_pattern{
   width = 16,
   height = 16,
   frame_delay = 250,
+  mirror_loop = true,
   repeat_mode = "horizontal",
 }
 

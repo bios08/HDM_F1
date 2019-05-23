@@ -173,7 +173,7 @@ dialog{
   id = "_puerto_azul.senales.carta1.2",
   text = [[
 La nota dice:
-  "el que calma el rugido de los 
+"...el que calma el rugido de los 
 mares, el estruendo de las olas,
 y el tumulto de los pueblos".
 ]],
@@ -200,6 +200,15 @@ dialog{
 PROTAGONISTA:
 Este cofre está cerrado.
 Mhhh.., Y es de buena madera.
+]],
+}
+
+dialog{
+  id = "_puerto_azul.senales.serrucho1",
+  text = [[
+PROTAGONISTA:
+Un serrucho olvidado. Muy
+dantiguo por cierto.
 ]],
 }
 

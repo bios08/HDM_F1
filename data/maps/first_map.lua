@@ -16,7 +16,7 @@ function map:on_started()
     --Reviso que carlos ya se marcho, y activo portal
     if game:get_value("puerto_azul_carlos_se_fue") == "b1" then
        local walker_movement = sol.movement.create("path")
-      walker_movement:set_path{0,0,0,7,7,0,0,0,0,0}
+      walker_movement:set_path{0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
       walker_movement:set_speed(30)
       walker_movement:set_loop(false)
       walker_movement:set_ignore_obstacles(true)
