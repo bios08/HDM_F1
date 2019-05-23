@@ -133,13 +133,13 @@ function title_logo_menu:on_started()
   
 end
 
-
+------------------------------------------------------------------------------------------------------
 
 function title_logo_menu:start_animation()
 
   aa=0
 end
-
+------------------------------------------------------------------------------------------------------
 
 function title_logo_menu:on_draw(screen)
 
@@ -150,7 +150,7 @@ function title_logo_menu:on_draw(screen)
   surface:draw(screen, 0,0)
   rebuild_surface()
 end
-
+------------------------------------------------------------------------------------------------------
 
 function title_logo_menu:on_key_pressed(key)
    if key == "space" then
@@ -160,20 +160,20 @@ function title_logo_menu:on_key_pressed(key)
    end
 
 end
-
+------------------------------------------------------------------------------------------------------
 --Salgo del menu
 function title_logo_menu:finish_title()
 
   sol.menu.stop(self)
 end
 
-
+------------------------------------------------------------------------------------------------------
 function title_logo_menu:phase_title()
 
     
 
 end
 
-
+------------------------------------------------------------------------------------------------------
 
 return title_logo_menu
