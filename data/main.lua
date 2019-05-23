@@ -30,7 +30,8 @@ function sol.main:on_started()
 
   local on_top = false  -- To keep the debug menu on top.
   sol.menu.start(sol.main, initial_menus[1], on_top)
-  for i, menu in ipairs(initial_menus) do
+  
+ for i, menu in ipairs(initial_menus) do
     function menu:on_finished()
       if sol.main.get_game() ~= nil then
         -- A game is already running (probably quick start with a debug key).

@@ -2,6 +2,6 @@ animation{
   name = "title",
   src_image = "menus/title_logo.png",
   directions = {
-    { x = 0, y = 16, frame_width = 320, frame_height = 240, origin_x = 1, origin_y = 1 },
+    { x = 0, y = 0, frame_width = 400, frame_height = 240, origin_x = 0, origin_y = 0 },
   },
 }
