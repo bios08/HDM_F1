@@ -15,6 +15,7 @@ function initial_game:initialize_new_savegame(game)
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
   game:set_starting_location("first_map", nil)  -- Starting location.
+  --game:set_starting_location("blue_port/sapphire_south", nil)  -- Starting location.
 
   game:set_max_life(12)
   game:set_life(game:get_max_life())
@@ -22,8 +23,10 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("lift", 1)
   game:set_ability("sword", 1)
 
-  -- Para el juego: Historia de los mundos: Los faros
+  -----------------------------------------------------------------------------------------------
+  -- Para el juego: Historia de los mundos: Los faros -------------------------------------------
   -- Por Marlon Llanos
+  
 
   
   

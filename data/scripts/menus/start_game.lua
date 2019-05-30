@@ -6,6 +6,8 @@ local start_game_menu = {}
 function start_game_menu:on_started()
   --sol.game.delete("save1.dat") -- LO PONGO SOLO PARA DESACTIVAR EL GRABADO, AL MOMENTO DE DESARROLLAR EL JUEGO
 
+
+ 
   local game = game_manager:create("save1.dat")
   game:start()
 end

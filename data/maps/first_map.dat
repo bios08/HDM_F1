@@ -830,32 +830,8 @@ teletransporter{
   enabled_at_start = false,
   width = 16,
   height = 16,
-  destination_map = "Salida",
-  destination = "destination",
-}
-
-teletransporter{
-  name = "tele1_2",
-  layer = 1,
-  x = 384,
-  y = 8,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  destination_map = "Salida",
-  destination = "destination",
-}
-
-teletransporter{
-  name = "tele1_3",
-  layer = 1,
-  x = 384,
-  y = 40,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  destination_map = "Salida",
-  destination = "destination",
+  destination_map = "blue_port/sapphire_south",
+  destination = "sapphire_south_dest1",
 }
 
 npc{

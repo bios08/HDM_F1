@@ -13,6 +13,9 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
+      -- Establezco sprites del heroe por defecto
+    hero:set_tunic_sprite_id("hero/oh_hero/tunic1a")
+    
     --Reviso que carlos ya se marcho, y activo portal
     if game:get_value("puerto_azul_carlos_se_fue") == "b1" then
        local walker_movement = sol.movement.create("path")
@@ -179,7 +182,7 @@ function carlos:on_interaction()
        -- Movimiento de carlos
 
      local walker_movement = sol.movement.create("path")
-      walker_movement:set_path{0,0,0,7,7,0,0,0,0,0}-- 0:derecha  7:derecha-abajo
+      walker_movement:set_path{0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}-- 0:derecha  7:derecha-abajo
       walker_movement:set_speed(30)
       walker_movement:set_loop(false)
       walker_movement:set_ignore_obstacles(true)
