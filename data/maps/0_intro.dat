@@ -1,0 +1,28 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 400,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "castle",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = -48,
+  y = -19,
+  direction = 1,
+}
+
+npc{
+  name = "fresco",
+  layer = 0,
+  x = 60,
+  y = 20,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/fresco",
+}
+

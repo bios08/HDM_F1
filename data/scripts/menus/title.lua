@@ -41,7 +41,8 @@ function title_screen:phase_title()   --<<======== 2 =============
   -- actual title screen
   self.phase = "title"
    -- start music
-  sol.audio.play_music("title_screen")
+  --sol.audio.play_music("title_screen")
+  sol.audio.play_music("Matthew/soliloquy")
 
   -- show a background that depends on the hour of the day
   local hours = tonumber(os.date("%H"))
@@ -83,7 +84,7 @@ function title_screen:phase_title()   --<<======== 2 =============
 
   -- set up the appearance of images and texts
   sol.timer.start(self, 5000, function()
-    sol.audio.play_sound("ok")
+    --sol.audio.play_sound("ok") -- Este ejecuta el sonido de monedita, en el titulo. Lo desactivo
     self.dx_img = sol.surface.create("menus/title_dx.png")
   end)
 
@@ -116,7 +117,7 @@ function title_screen:phase_title()   --<<======== 2 =============
   sol.timer.start(self, 50, move_clouds)
 
   -- show an opening transition
-  self.surface:fade_in(100) -- Tiempo de transición de entrada del Titulo. (Este sí es)
+  self.surface:fade_in(200) -- Tiempo de transición de entrada del Titulo. (Este sí es)
 
   self.allow_skip = false
   sol.timer.start(self, 2000, function()

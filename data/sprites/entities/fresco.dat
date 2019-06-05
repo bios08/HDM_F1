@@ -1,0 +1,20 @@
+animation{
+  name = "0",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 180, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 180, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 180, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 180, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
+  },
+}

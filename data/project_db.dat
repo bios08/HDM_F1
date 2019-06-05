@@ -1,3 +1,4 @@
+map{ id = "0_intro", description = "Mapa de fondo para la introduccion con imagenes" }
 map{ id = "Salida", description = "Salida" }
 map{ id = "blue_port/sapphire_south", description = "City of sapphire south" }
 map{ id = "first_map", description = "First map" }
@@ -90,6 +91,8 @@ sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/explosion", description = "Explosion" }
+sprite{ id = "entities/fresco" }
+sprite{ id = "entities/fresco_scene1" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
@@ -150,6 +153,9 @@ sprite{ id = "teletransporters/teletransporter_green", description = "Teletransp
 sprite{ id = "teletransporters/teletransporter_pink", description = "Teletransporter (pink)" }
 sprite{ id = "teletransporters/teletransporter_yellow", description = "Teletransporter (yellow)" }
 
+music{ id = "Himnario/116Ceaml" }
+music{ id = "Matthew/Tropic_Strike" }
+music{ id = "Matthew/soliloquy" }
 music{ id = "eduardo/boss", description = "Boss" }
 music{ id = "eduardo/cave", description = "Cave" }
 music{ id = "eduardo/dungeon_finished", description = "Dungeon finished" }
@@ -166,6 +172,7 @@ music{ id = "eduardo/sword_fanfare", description = "Sword fanfare" }
 music{ id = "eduardo/title_screen", description = "Title screen" }
 music{ id = "eduardo/village", description = "Village" }
 music{ id = "eduardo/witch_hut", description = "Witch" }
+music{ id = "waves_of_hawaii" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bird_chirp", description = "bird_chirp" }

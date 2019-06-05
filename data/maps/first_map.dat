@@ -787,7 +787,7 @@ npc{
 }
 
 destination{
-  name = "destination",
+  name = "from_intro",
   layer = 1,
   x = 80,
   y = 165,

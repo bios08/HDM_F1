@@ -67,7 +67,7 @@ end
 
 
 --Comienza la música del ambiente
-sol.audio.play_music("village")
+sol.audio.play_music("Himnario/116Ceaml")
 
 --Velocidad del caminar del heroe
 hero = game:get_hero()

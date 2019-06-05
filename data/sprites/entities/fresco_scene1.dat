@@ -1,0 +1,14 @@
+animation{
+  name = "1",
+  src_image = "entities/fresco_scene1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 400, frame_height = 240, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "2",
+  src_image = "entities/fresco_scene1.png",
+  directions = {
+    { x = 0, y = 240, frame_width = 400, frame_height = 240, origin_x = 0, origin_y = 0 },
+  },
+}

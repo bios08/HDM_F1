@@ -14,7 +14,9 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("first_map", nil)  -- Starting location.
+  -- MAPA INICIAL A MOSTRAR, DESPUES DEL TITLE Y PRESIONAR START
+    game:set_starting_location("0_intro", nil)
+  --game:set_starting_location("first_map", nil)  -- Starting location.
   --game:set_starting_location("blue_port/sapphire_south", nil)  -- Starting location.
 
   game:set_max_life(12)
