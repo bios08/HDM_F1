@@ -18,3 +18,33 @@ animation{
     { x = 0, y = 180, frame_width = 300, frame_height = 180, origin_x = 8, origin_y = 13 },
   },
 }
+animation{
+  name = "2",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 360, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 360, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 360, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 360, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "3",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 540, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 540, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 540, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 540, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "4",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 720, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 720, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 720, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 720, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
+  },
+}

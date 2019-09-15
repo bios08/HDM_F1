@@ -12,16 +12,16 @@ local game_manager = {}
 
 
 
--- Creates a game ready to be played.
-function game_manager:create(file)
-
-  -- Create the game (but do not start it).
-  local exists = sol.game.exists(file)
-  local game = sol.game.load(file)
-  if not exists then
-    -- This is a new savegame file.
+-- Starts the game from the given savegame file,
+-- initializing it if necessary.
+function game_manager:create(file_name, overwrite_game)
+  if overwrite_game then sol.game.delete(file_name) end
+  local exists = sol.game.exists(file_name)
+  local game = sol.game.load(file_name)
+  if not exists then -- Initialize a new savegame.
     initial_game:initialize_new_savegame(game)
   end
+
 
 
 

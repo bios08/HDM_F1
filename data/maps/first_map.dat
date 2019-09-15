@@ -759,7 +759,7 @@ npc{
   y = 21,
   direction = 3,
   subtype = 1,
-  sprite = "hero/tunic2",
+  sprite = "npc/kid/kid_4.2",
 }
 
 npc{
@@ -836,10 +836,18 @@ teletransporter{
 
 npc{
   layer = 1,
-  x = 344,
+  x = 360,
   y = 21,
   direction = 3,
   subtype = 1,
   behavior = "dialog#_puerto_azul.senales.serrucho1",
+}
+
+destination{
+  name = "tele_first_map1",
+  layer = 1,
+  x = 376,
+  y = 37,
+  direction = 1,
 }
 

@@ -1,2 +1,7 @@
+text{ key = "title_screen.continue", value = "Continuar" }
+text{ key = "title_screen.dialog_confirm_title", value = "Está seguro ?" }
+text{ key = "title_screen.new_game", value = "Nueva partida" }
+text{ key = "title_screen.press_no", value = "No" }
 text{ key = "title_screen.press_space", value = "Presione espacio" }
+text{ key = "title_screen.press_yes", value = "Si" }
 text{ key = "title_screen.website", value = " " }

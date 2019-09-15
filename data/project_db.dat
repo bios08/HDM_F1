@@ -87,6 +87,7 @@ sprite{ id = "enemies/soldier_feather", description = "Soldier Feather" }
 sprite{ id = "enemies/soldier_sword", description = "Soldier Sword" }
 sprite{ id = "enemies/wings_evil", description = "Wings evil" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/boat_yarrowmouth_ferry", description = "entities/boat_yarrowmouth_ferry" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
@@ -113,6 +114,7 @@ sprite{ id = "hero/trail", description = "Trail" }
 sprite{ id = "hero/tunic1", description = "Eldran red" }
 sprite{ id = "hero/tunic2", description = "Eldran blue" }
 sprite{ id = "hero/tunic3", description = "Eldran purple" }
+sprite{ id = "hud/dialog_box_frame", description = "dialog_box_frame" }
 sprite{ id = "hud/dialog_box_message_end", description = "Dialog end" }
 sprite{ id = "hud/empty_heart", description = "Empty heart" }
 sprite{ id = "hud/heart", description = "Heart" }
@@ -124,13 +126,32 @@ sprite{ id = "hud/icon_pause", description = "Pause icon" }
 sprite{ id = "hud/magic_bar", description = "Magic bar" }
 sprite{ id = "hud/pause_infra", description = "Pause Infrastructure" }
 sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/cursor", description = "menus/cursor" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "menus/test" }
 sprite{ id = "menus/title_logo", description = "Diseño del Titulo" }
 sprite{ id = "npc/kaleido", description = "Kaleido" }
+sprite{ id = "npc/kid/kid_4.2", description = "npc/kid/kid_4.2" }
+sprite{ id = "npc/man/man_6.1", description = "npc/man/man_6.1" }
+sprite{ id = "npc/man/man_6.2", description = "npc/man/man_6.2" }
+sprite{ id = "npc/man/man_6.3", description = "npc/man/man_6.3" }
+sprite{ id = "npc/man/man_6.4", description = "npc/man/man_6.4" }
+sprite{ id = "npc/man/man_6.5", description = "npc/man/man_6.5" }
+sprite{ id = "npc/man/man_6.6", description = "npc/man/man_6.6" }
+sprite{ id = "npc/man/man_6.7", description = "npc/man/man_6.7" }
+sprite{ id = "npc/man/man_6.8", description = "npc/man/man_6.8" }
 sprite{ id = "npc/sign", description = "Sign" }
+sprite{ id = "npc/woman/sweeping_lady_1", description = "npc/woman/sweeping_lady_1" }
+sprite{ id = "npc/woman/sweeping_lady_2", description = "npc/woman/sweeping_lady_2" }
+sprite{ id = "npc/woman/sweeping_lady_3", description = "npc/woman/sweeping_lady_3" }
+sprite{ id = "npc/woman/sweeping_lady_4", description = "npc/woman/sweeping_lady_4" }
+sprite{ id = "npc/woman/sweeping_lady_5", description = "npc/woman/sweeping_lady_5" }
+sprite{ id = "npc/woman/sweeping_lady_6", description = "npc/woman/sweeping_lady_6" }
+sprite{ id = "npc/woman/sweeping_lady_7", description = "npc/woman/sweeping_lady_7" }
+sprite{ id = "npc/woman/sweeping_lady_8", description = "npc/woman/sweeping_lady_8" }
+sprite{ id = "npc/woman_18.2" }
 sprite{ id = "npc/woman_1a", description = "Woman 1a" }
 sprite{ id = "npc/woman_1b", description = "Woman 1b" }
 sprite{ id = "npc/woman_1c", description = "Woman 1c" }
@@ -154,6 +175,9 @@ sprite{ id = "teletransporters/teletransporter_pink", description = "Teletranspo
 sprite{ id = "teletransporters/teletransporter_yellow", description = "Teletransporter (yellow)" }
 
 music{ id = "Himnario/116Ceaml" }
+music{ id = "Marlon_llanos/Amor_obediencia_Dios_ambiente", description = "Marlon_llanos/Amor_obediencia_Dios_ambiente" }
+music{ id = "Marlon_llanos/Amor_y_obediencia_a_Dios" }
+music{ id = "Marlon_llanos/Arbol_de_la_vida", description = "Marlon_llanos/Arbol_de_la_vida" }
 music{ id = "Matthew/Tropic_Strike" }
 music{ id = "Matthew/soliloquy" }
 music{ id = "eduardo/boss", description = "Boss" }
@@ -174,6 +198,7 @@ music{ id = "eduardo/village", description = "Village" }
 music{ id = "eduardo/witch_hut", description = "Witch" }
 music{ id = "waves_of_hawaii" }
 
+sound{ id = "acept_option", description = "acept_option" }
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bird_chirp", description = "bird_chirp" }
 sound{ id = "bird_chirp1", description = "bird_chirp1" }
@@ -293,6 +318,7 @@ sound{ id = "wrong3", description = "wrong3" }
 
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
 item{ id = "heart", description = "Heart" }
+item{ id = "libro" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }

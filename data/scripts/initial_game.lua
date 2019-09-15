@@ -39,6 +39,10 @@ function initial_game:initialize_new_savegame(game)
   game:set_value("puerto_azul_carta1","b0")
   game:set_value("puerto_azul_carlos_se_fue","b0")
 
+  -- ZONA: Saphire south
+  game:set_value("save_sapphire_south_anie1_listo", "false")
+  game:set_value("sap_s_anie1", 0)
+
 end
 
 return initial_game

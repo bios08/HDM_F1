@@ -1,0 +1,7 @@
+animation{
+  name = "frame",
+  src_image = "hud/dialog_box.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 220, frame_height = 60, origin_x = 8, origin_y = 13 },
+  },
+}

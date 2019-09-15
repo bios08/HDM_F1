@@ -78,7 +78,7 @@ dialog{
   text = [[
 PROTAGONISTA:
 Hola!. Si. Te preguntaba si me
-podrías decir ¿donde estoy?
+podrías decir ¿dónde estoy?
 Estoy desorientado...
 ]],
 }
@@ -105,7 +105,7 @@ dialog{
   id = "_puerto_azul.npcs.carlos.5",
   next = "_puerto_azul.npcs.carlos.6",
   text = [[
-CARLOS:
+NIÑO MISTERIOSO:
 Parece que ha leido el mensaje
 del papel. 
 ]],
@@ -208,7 +208,238 @@ dialog{
   text = [[
 PROTAGONISTA:
 Un serrucho olvidado. Muy
-dantiguo por cierto.
+antiguo por cierto.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1",
+  text = [[
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.1",
+  next = "_sapphire_south.Erika.scena1.2",
+  text = [[
+ERIKA:
+Que importante es el aseo
+y el orden. El buen Dios
+del universo, tiene todo
+ordenado ¿no debieramos
+procurar hacer lo mismo?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.2",
+  next = "_sapphire_south.Erika.scena1.3",
+  text = [[
+PROTAGONISTA:
+Pero el mundo de hoy quita tanto
+tiempo... Con tanto estres, y tanto
+que hacer, no hay tiempo ni 
+siquiera para el orden.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.3",
+  text = [[
+ERIKA:
+Señor, me disculpa, pero eso será
+en su mundo. Aquí, en nuestro 
+reino, hemos aprendido por 
+generaciones a administrar
+nuestro tiempo. Siempre se 
+debe dejar tiempo para ordenar
+y asear. Hay principios de salud
+detrás de esto.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Jimmy",
+  text = [[
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Jimmy.scena1.1",
+  text = [[
+JIMMY:
+Jo jo!... Que bello es este pueblo,
+no te parece? Debes recorrerlo y
+deleitarte en su naturaleza, y en
+su gente. La gente de acá, es muy
+diferente de la gente de los otros
+pueblos. Acá está lleno de vida,
+paz. Te invito a que averigues el
+por qué de esta felicidad y
+tranquilidad. Jo jo!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Jimmy.scena1.2",
+  next = "_sapphire_south.Jimmy.scena1.3",
+  text = [[
+PROTAGONISTA:
+Estimado, será que la felicidad de
+este lugar se debe a su estabilidad
+económica? 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Jimmy.scena1.3",
+  text = [[
+JIMMY:
+Jo jo! No querido amigo, la 
+bendición de esta tierra se debe
+a algo mucho más elevado
+y profundo. Es algo mucho más
+espiritual. 
+Cuando lo entiendas, podrás 
+replicarlo en tu mundo y 
+beneficiarte no solo tu, si no tus
+seres queridos tambien.
+Jo Jo! Esta es la idea, lo que
+aprendes de la historia de este
+mundo, lo llevas a tu mundo.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.1",
+  next = "_sapphire_south.anie.2",
+  text = [[
+NIÑA MISTERIOSA:
+Hola Joven! Bienvenido al poblado
+Safiro. 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.2",
+  next = "_sapphire_south.anie.3",
+  text = [[
+PROTAGONISTA:
+Hola que tal!. ¿Poblado Safiro?
+Sabe, realmente no
+entiendo.
+¿Cómo llegué aquí?
+No me acuerdo de nada.
+¿Y cuál es su nombre
+señorita?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.3",
+  next = "_sapphire_south.anie.3_1",
+  text = [[
+NIÑA MISTERIOSA:
+Mi nombre es Anie. ¿Y el suyo?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.3_1",
+  next = "_sapphire_south.anie.4",
+  text = [[
+PROTAGONISTA:
+¿Mi nombre?
+...
+...
+...
+...
+No lo recuerdo!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.4",
+  next = "_sapphire_south.anie.5",
+  text = [[
+NIÑA MISTERIOSA:
+No se preocupe señor.
+Está en un lugar muy bello
+y tranquilo. Es un lugar 
+donde recibirá una enseñanza
+muy importante.
+Usted pidió estar aquí.
+¿No se acuerda?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.5",
+  text = [[
+PROTAGONISTA:
+Jovencita, no sé de
+qué está hablando, yo
+solo estaba en mis cosas,
+en mis labores cotidianas.
+Yo no he pedido venir
+a este lugar.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.7_descansar",
+  text = [[
+ANIE:
+Señor, es necesario 
+que tome un descanso.
+Está a punto de anochecer,
+y mañana será un gran
+día. 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.Mision1_1",
+  text = [[
+ANIE:
+Señor, ¿le puedo pedir
+un favor?, se me han 
+extraviado mis libros
+de dibujo y de 
+investigación. Hay 
+muchos años de 
+trabajo ahí. La última
+vez que estuve 
+dibujando, estaba
+en el muelle, pero lo
+he buscado y no lo 
+encuentro. Por favor,
+¿Me podría
+ayudar a buscarlo?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.Mision1_2",
+  text = [[
+ANIE:
+Ha encontrado mis libros!
+Muchas gracias. En estas
+hojas hay muchos hechos
+increibles de la bio-
+diversidad de los 
+campos del poblado 
+Safiro.
+]],
+}
+
+dialog{
+  id = "_treasure.libro.1",
+  text = [[
+Has encontrado los libros
+de dibujo y de investigación
+de Anie. Lo ha estado
+buscando por mucho tiempo.
 ]],
 }
 
@@ -216,15 +447,11 @@ dialog{
   id = "intro0",
   skip = "current",
   text = [[
-$1Al principio Dios creo el mundo.
-Todo era perfecto y muy bello.
+$1Al principio Dios creo los cielos
+y la tierra.
 
-Y para que el hombre y la mujer
-vivieran eternamente, el buen
-Creador puso en el medio del
-paraiso el Árbol de la Vida,
-el cual producía un fruto
-que perpetuaba la inmortalidad.
+Todo estaba oscuro y desordenado.
+
 ]],
 }
 
@@ -232,18 +459,12 @@ dialog{
   id = "intro1",
   skip = "current",
   text = [[
-$1Pero algo sucedió, algo
-muy grave y dañino. Dios
-tuvo que expulsarlos, y proteger
-la entrada con ángeles
-y espadas de fuego y luz.
+$1Pero Dios ordenó que haya luz.
 
-Ningun ser humano podría
-volver a comer del árbol 
-y vivir así eternamente.
-El Creador se los advirtió
-con anticipación. Con
-mucha paciencia y amor.
+
+El buen creador inició el
+ordenamiento y comenzó a formar
+este bello hogar.
 ]],
 }
 
@@ -251,20 +472,66 @@ dialog{
   id = "intro2",
   skip = "current",
   text = [[
-$1
-Debes venir...
+$1Con su palabra ordenó y la 
+creación obedeció. En seis días
+literales dió forma a este bello
+mundo y lo llenó de vida.
 
 
-Debes escuchar mi voz...
+Finalizó con la creación del hombre
+y la mujer, y el séptimo día
+descansó.
+Y con amor nos ordenó que
+hicieramos lo mismo durante el
+séptimo día.
+]],
+}
 
-Debes prepararte, para volver
-a comer del Árbol de la Vida...
+dialog{
+  id = "intro3",
+  skip = "current",
+  text = [[
+$1Una de las cosas más maravillosas
+que realizó Dios, fué el de crear 
+el más bello y glorioso árbol en
+el mismo centro del Edén. Ese fruto
+perpetuaba la inmortalidad. Si el
+Ser Humano era obediente a Dios
+podría comer libremente de el y 
+vivir así eternamente.
+]],
+}
 
-Y encender los luces que
-están en las alturas...
+dialog{
+  id = "intro4",
+  skip = "current",
+  text = [[
+ c$1Lamentablemente Adán y
+Eva desobedecieron, pecaron,
+y fueron expulsados del
+bello huerto.
 
 
-Despierta...
+Ángeles poderosos y espadas
+brillantes protegieron el lugar.
+
+Ningún desendiente de Adán y Eva
+podría nuevamente comer de su
+fruto y vivir así para siempre.
+]],
+}
+
+dialog{
+  id = "intro5",
+  skip = "current",
+  text = [[
+$1Pero la Divinidad hizo un plan.
+Hay una forma de que el Hombre 
+pueda volver a comer del Árbol 
+de la Vida. Y volver a acceder
+a una vida sin muerte y dolor,
+como era al principio. Uno solo
+es el camino.
 ]],
 }
 

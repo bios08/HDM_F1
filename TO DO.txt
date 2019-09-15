@@ -1,0 +1,10 @@
+
+-LISTO- Cortar el pelo al personaje principal
+--      Preguntar a Marx por si puedo utilizar sus personajes.
+
+--     Implementar Menu de Save
+
+
+
+-- Buscar 1 item, para Anie. (Libro de dibujos)
+-- Agregar barco en el muelle y un personaje.

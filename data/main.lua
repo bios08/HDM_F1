@@ -2,11 +2,35 @@
 -- See the Lua API! http://www.solarus-games.org/doc/latest
 
 require("scripts/features")
+local title_screen = require"scripts/menus/title"
+
 require("scripts/multi_events")
 
 -- Edit scripts/menus/initial_menus_config.lua to add or change menus before starting a game.
+-- EDITAR  EL ORDEN DE LOS MENU. ES EL ORDEN DE LOS SCRIPT QUE SE EJECUTAN CON LAS DIFERETES PANTALLAS
 local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}
+
+
+---[[
+-- Otra comienzo del juego, mucho más sencilla
+function sol.main_on_started()
+  --preload the sounds for faster access
+  sol.audio.preload_sounds()
+  --set the language
+  sol.language.set_language("es")
+
+  --Set the window title.
+  sol.video.set_window_title("La Historia de los Mundos")
+
+  --Title Screen:
+  sol.menu.start(self, title_screen)
+
+end
+--]]
+
+
+
 
 -- This function is called when Solarus starts.
 function sol.main:on_started()
@@ -17,7 +41,8 @@ function sol.main:on_started()
   ---Por marlon
   sol.language.set_language("es")
  
-
+  --Establecer el nombre de la ventana
+  sol.video.set_window_title("Historia de los Mundos")
 
   -- Show the initial menus.
   if #initial_menus_config == 0 then
@@ -93,4 +118,12 @@ function sol.main:on_key_pressed(key, modifiers)
   end
 
   return handled
+end
+
+
+--Starts a game.
+function sol.main:start_savegame(game)
+
+  sol.main.game = game
+  game:start()
 end

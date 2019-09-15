@@ -16,9 +16,9 @@ function map:on_started()
       -- Establezco sprites del heroe por defecto
     hero:set_tunic_sprite_id("hero/oh_hero/tunic1a")
     
-    --Reviso que carlos ya se marcho, y activo portal
+    --Reviso que carlos ya se haya marchado, y activo portal
     if game:get_value("puerto_azul_carlos_se_fue") == "b1" then
-       local walker_movement = sol.movement.create("path")
+      local walker_movement = sol.movement.create("path")
       walker_movement:set_path{0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
       walker_movement:set_speed(30)
       walker_movement:set_loop(false)
@@ -78,23 +78,26 @@ hero:set_walking_speed(70)
 
 --Al comenzar el juego, comienza a decir unas frases. Cada una se demora un tiempo.
 
-    sol.timer.start(500, function()
-         game:start_dialog("_puerto_azul.intro1")
+ if game:get_value("save_sapphire_south_conoce") ~= "true" then
 
-        sol.timer.start(1000, function()
-         game:start_dialog("_puerto_azul.intro2")
-
-         sol.timer.start(1000, function()
-         game:start_dialog("_puerto_azul.intro3")
+      sol.timer.start(500, function()
+           game:start_dialog("_puerto_azul.intro1")
 
           sol.timer.start(1000, function()
-         
-     end)
+           game:start_dialog("_puerto_azul.intro2")
 
-    end)  
-  end)    
- end)     
+           sol.timer.start(1000, function()
+           game:start_dialog("_puerto_azul.intro3")
 
+            sol.timer.start(1000, function()
+           
+       end)
+
+      end)  
+    end)    
+   end)     
+
+end -- if
    
 
   
