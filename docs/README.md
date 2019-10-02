@@ -11,6 +11,8 @@ santificación de nuestro caracter, debe ser contada y explicada.
 
 
 <img src="Images/Intro1scene1.png" alt="hi" class="inline"/>
-<img src="Images/c1a.jpg" alt="hi"  width="400" height="300"/>
+</br>
+<img src="Images/c1a.jpg" style="height: 50%"/>
+</br>
 <img src="Images/c2a.jpg"  style="height: 50%"  />
 
