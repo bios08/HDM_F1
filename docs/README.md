@@ -6,7 +6,7 @@ Musica, y sus licencias. (Creditos)
 
  soliloquy:  Autor: Matthew Pablo, Fuente: http://opengameart.org/users/matthewpablo
 
-
+<img src="images/Intro1_scene1.png" alt="hi" class="inline"/>
 
 
 
