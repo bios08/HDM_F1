@@ -1,0 +1,31 @@
+background_color{ 255, 255, 255 }
+tile_pattern{
+  id = "1",
+  ground = "wall",
+  default_layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "2",
+  ground = "wall",
+  default_layer = 0,
+  x = 16,
+  y = 0,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "3",
+  ground = "wall",
+  default_layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 32,
+}
+

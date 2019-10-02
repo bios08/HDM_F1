@@ -2648,6 +2648,56 @@ tile{
   tileset = "oceanheart_outdoors_1",
 }
 
+tile{
+  layer = 2,
+  x = 264,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "2",
+  tileset = "mll_hdm",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "2",
+  tileset = "mll_hdm",
+}
+
+tile{
+  layer = 2,
+  x = 352,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "2",
+  tileset = "mll_hdm",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "2",
+  tileset = "mll_hdm",
+}
+
+tile{
+  layer = 2,
+  x = 680,
+  y = 856,
+  width = 16,
+  height = 32,
+  pattern = "3",
+  tileset = "mll_hdm",
+}
+
 destination{
   name = "sapphire_south_dest1",
   layer = 2,
@@ -2825,6 +2875,16 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/woman/sweeping_lady_6",
+}
+
+npc{
+  name = "Mik",
+  layer = 2,
+  x = 664,
+  y = 885,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_1b",
 }
 
 tile{

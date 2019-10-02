@@ -5,7 +5,9 @@ map{ id = "first_map", description = "First map" }
 
 tileset{ id = "castle", description = "Castle" }
 tileset{ id = "cave_2", description = "Mapa de puerto" }
+tileset{ id = "cristals" }
 tileset{ id = "house", description = "House" }
+tileset{ id = "mll_hdm" }
 tileset{ id = "oceanheart_outdoors_1", description = "Mundo lal rededor" }
 tileset{ id = "outside", description = "Light Overworld" }
 
@@ -132,8 +134,19 @@ sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "menus/test" }
 sprite{ id = "menus/title_logo", description = "Diseño del Titulo" }
+sprite{ id = "npc/barrel_carrier_spiked", description = "npc/barrel_carrier_spiked" }
 sprite{ id = "npc/kaleido", description = "Kaleido" }
+sprite{ id = "npc/kid/kid_1.1", description = "npc/kid/kid_1.1" }
+sprite{ id = "npc/kid/kid_2.1", description = "npc/kid/kid_2.1" }
+sprite{ id = "npc/kid/kid_3.1", description = "npc/kid/kid_3.1" }
 sprite{ id = "npc/kid/kid_4.2", description = "npc/kid/kid_4.2" }
+sprite{ id = "npc/kid/kid_5.1", description = "npc/kid/kid_5.1" }
+sprite{ id = "npc/kid/kid_6.1", description = "npc/kid/kid_6.1" }
+sprite{ id = "npc/man/man_1.1", description = "npc/man/man_1.1" }
+sprite{ id = "npc/man/man_2.1", description = "npc/man/man_2.1" }
+sprite{ id = "npc/man/man_3.1", description = "npc/man/man_3.1" }
+sprite{ id = "npc/man/man_4.1", description = "npc/man/man_4.1" }
+sprite{ id = "npc/man/man_5.1", description = "npc/man/man_5.1" }
 sprite{ id = "npc/man/man_6.1", description = "npc/man/man_6.1" }
 sprite{ id = "npc/man/man_6.2", description = "npc/man/man_6.2" }
 sprite{ id = "npc/man/man_6.3", description = "npc/man/man_6.3" }
@@ -151,6 +164,39 @@ sprite{ id = "npc/woman/sweeping_lady_5", description = "npc/woman/sweeping_lady
 sprite{ id = "npc/woman/sweeping_lady_6", description = "npc/woman/sweeping_lady_6" }
 sprite{ id = "npc/woman/sweeping_lady_7", description = "npc/woman/sweeping_lady_7" }
 sprite{ id = "npc/woman/sweeping_lady_8", description = "npc/woman/sweeping_lady_8" }
+sprite{ id = "npc/woman/woman_1.1", description = "npc/woman/woman_1.1" }
+sprite{ id = "npc/woman/woman_1.2", description = "npc/woman/woman_1.2" }
+sprite{ id = "npc/woman/woman_1.3", description = "npc/woman/woman_1.3" }
+sprite{ id = "npc/woman/woman_1.4", description = "npc/woman/woman_1.4" }
+sprite{ id = "npc/woman/woman_1.5", description = "npc/woman/woman_1.5" }
+sprite{ id = "npc/woman/woman_1.6", description = "npc/woman/woman_1.6" }
+sprite{ id = "npc/woman/woman_1.7", description = "npc/woman/woman_1.7" }
+sprite{ id = "npc/woman/woman_1.8", description = "npc/woman/woman_1.8" }
+sprite{ id = "npc/woman/woman_10.1", description = "npc/woman/woman_10.1" }
+sprite{ id = "npc/woman/woman_11.1", description = "npc/woman/woman_11.1" }
+sprite{ id = "npc/woman/woman_12.1", description = "npc/woman/woman_12.1" }
+sprite{ id = "npc/woman/woman_13.1", description = "npc/woman/woman_13.1" }
+sprite{ id = "npc/woman/woman_14.1", description = "npc/woman/woman_14.1" }
+sprite{ id = "npc/woman/woman_15.1", description = "npc/woman/woman_15.1" }
+sprite{ id = "npc/woman/woman_16.1", description = "npc/woman/woman_16.1" }
+sprite{ id = "npc/woman/woman_17.1", description = "npc/woman/woman_17.1" }
+sprite{ id = "npc/woman/woman_18.1", description = "npc/woman/woman_18.1" }
+sprite{ id = "npc/woman/woman_19.1", description = "npc/woman/woman_19.1" }
+sprite{ id = "npc/woman/woman_2.1", description = "npc/woman/woman_2.1" }
+sprite{ id = "npc/woman/woman_2.2", description = "npc/woman/woman_2.2" }
+sprite{ id = "npc/woman/woman_2.3", description = "npc/woman/woman_2.3" }
+sprite{ id = "npc/woman/woman_2.4", description = "npc/woman/woman_2.4" }
+sprite{ id = "npc/woman/woman_2.5", description = "npc/woman/woman_2.5" }
+sprite{ id = "npc/woman/woman_2.6", description = "npc/woman/woman_2.6" }
+sprite{ id = "npc/woman/woman_2.7", description = "npc/woman/woman_2.7" }
+sprite{ id = "npc/woman/woman_2.8", description = "npc/woman/woman_2.8" }
+sprite{ id = "npc/woman/woman_3.1", description = "npc/woman/woman_3.1" }
+sprite{ id = "npc/woman/woman_4.1", description = "npc/woman/woman_4.1" }
+sprite{ id = "npc/woman/woman_5.1", description = "npc/woman/woman_5.1" }
+sprite{ id = "npc/woman/woman_6.1", description = "npc/woman/woman_6.1" }
+sprite{ id = "npc/woman/woman_7.1", description = "npc/woman/woman_7.1" }
+sprite{ id = "npc/woman/woman_8.1", description = "npc/woman/woman_8.1" }
+sprite{ id = "npc/woman/woman_9.1", description = "npc/woman/woman_9.1" }
 sprite{ id = "npc/woman_18.2" }
 sprite{ id = "npc/woman_1a", description = "Woman 1a" }
 sprite{ id = "npc/woman_1b", description = "Woman 1b" }
