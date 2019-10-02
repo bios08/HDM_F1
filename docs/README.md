@@ -2,7 +2,7 @@
 ## Enciende las luces.
 
 
-Musica, y sus licencias
+Musica, y sus licencias. (Creditos)
 
  soliloquy:  Autor: Matthew Pablo, Fuente: http://opengameart.org/users/matthewpablo
 
