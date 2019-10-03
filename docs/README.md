@@ -50,5 +50,5 @@ La Historia de los Mundos, contendrá:
   
 <img src="Images/Captura1.JPG"/>
 <img src="Images/Captura2.JPG"/>
-<img src="Images/Captura3.JGP"/>
-<img src="Images/Captura4.JGP"/>
+<img src="Images/Captura3.JPG"/>
+<img src="Images/Captura4.JPG"/>
