@@ -48,7 +48,7 @@ La Historia de los Mundos, contendrá:
   - Temas referentes a la verdadera educación
   - Temas referente al Santuario y la interseción de Jesús.
   
-<img src="Images/Captura1.jpg"/>
-<img src="Images/Captura2.jpg"/>
-<img src="Images/Captura3.jpg"/>
-<img src="Images/Captura4.jpg"/>
+<img src="Images/Captura1.JPG"/>
+<img src="Images/Captura2.JPG"/>
+<img src="Images/Captura3.JGP"/>
+<img src="Images/Captura4.JGP"/>
