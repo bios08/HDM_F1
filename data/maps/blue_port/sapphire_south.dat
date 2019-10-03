@@ -2660,16 +2660,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 280,
-  y = 704,
-  width = 16,
-  height = 16,
-  pattern = "2",
-  tileset = "mll_hdm",
-}
-
-tile{
-  layer = 2,
   x = 352,
   y = 784,
   width = 16,
@@ -2884,7 +2874,7 @@ npc{
   y = 885,
   direction = 3,
   subtype = 1,
-  sprite = "npc/woman_1b",
+  sprite = "npc/kid/kid_4.2",
 }
 
 tile{
