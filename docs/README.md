@@ -2,8 +2,7 @@
 ## Encendiendo las luces en lugares dificiles de llegar
 
 Bienvenido a este interesante proyecto misionero. Una serie de estudios Bíblicos en un formato de video juego tipo RPG, .
-La finalidad de este video juego es poder llevar de una manera fresca,  no tradicional, e interactiva, las verdades de la Biblia,
-el mensaje de Jesús, su sacrificio, su inminente regreso, y los 10 mandamientos a las nuevas generaciones de Jóvenes. 
+La finalidad de este video juego es poder llevar de una manera fresca,  no tradicional, e interactiva, las verdades de la Biblia,el mensaje de Jesús, su sacrificio, su inminente regreso, el sábado de descanso, y los 10 mandamientos a las nuevas generaciones de Jóvenes. 
 
 Soy un Adventista del Séptimo Día, y creo con todas mis fuerzas que debemos hablar sobre los 3 Ángeles, acerca del Juicio Investigador, de Daniel y Apocalpisis, y de la santificación de nuestro caracter. Hacer brillar todos los secretos y recompenzas que la biblia promete y revela, los misterios del cielo, del Árbol de la Vida, de la Inmortalidad, de los ángeles, de la revelacion de Jesús en la Historia, etc. Todo esto debe ser contado y explicado en este último tiempo,  y debemos revelar a todas las personas como obtener la salvación y el perdón de pecados, y la importancia de conocer a Jesús. En esta última etapa de la historia, cuando este mundo de maldad está a punto de terminar con la venida del Señor, es más que nunca que debemos contar todos los secretos que están abiertos ante los hombres, para motivarlos a aceptar y Amar a Jesús, a arrepentirse y anhelar la salvación en Jesús.
 
@@ -30,5 +29,21 @@ La Historia de los Mundos, no contendrá:
   - Adulterio, desnudos, semi-desnudos, erotismo, sexo, palabras sugerentes,  etc.
   - Homosexualismo, lesbianismo, etc.
   - Robos, mentiras, envidia, etc.
+  - Competencia, rivalidad, etc.
 
+## Lo que este juego SI mostrará
 
+Muchos se preguntarán, ¿que mostrará el juego para que sea atractivo entonces?, si no se va a mostrar lo que por lo general le da vida a los juegos en general. Bueno, hay mucho que mostrar. De hecho, los RPG están llenos de elementos robados de la Biblia y de lo que Dios quiere enseñar, tales como el Árbol de la Vida, la inmortalidad, poderes y milagros, ángeles, piedras preciosas, canciones, iglesias, etc. Dios también es el Dios de las ciencias, de la bella música, del color, de la vida, de la naturaleza, de la energía, de la fuerzas del universo, de la física, de la historia, de la biología etc. Por tanto hay mucho que se puede utilizar para motivar al Jugador a ser un verdadero hijo de Dios.
+
+La Historia de los Mundos, contendrá:
+
+  - Bella música, suave, melodiosa, elevadora. Creada y consagrada para Dios.
+  - Naturaleza por todos lados, agricultura, ecología, permacultura, etc.
+  - Ciencia, tecnologías energéticas conocidas y no conocidas (como cristales o minerales)
+  - Futurismo, como naves voladoras, teletransportadores, etc.
+  - Viaje al pasado Bíblico e historico (Noé, Daniel, Nimrod, etc)
+  - Un mundo virtual, aparejado en un ambiente natural y tranquilo.
+  - Temas referentes a las realidades actuales de la Verdad Presente.
+  - Temas referentes a la reforma de la Salud (Reforma Pro Salud)
+  - Temas referentes a la verdadera educación
+  - Temas referente al Santuario y la interseción de Jesús.
