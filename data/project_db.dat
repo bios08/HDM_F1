@@ -1,5 +1,7 @@
 map{ id = "0_intro", description = "Mapa de fondo para la introduccion con imagenes" }
 map{ id = "Salida", description = "Salida" }
+map{ id = "Saphire/hostal" }
+map{ id = "Saphire/hostal_sub" }
 map{ id = "blue_port/sapphire_south", description = "City of sapphire south" }
 map{ id = "first_map", description = "First map" }
 
@@ -7,8 +9,12 @@ tileset{ id = "castle", description = "Castle" }
 tileset{ id = "cave_2", description = "Mapa de puerto" }
 tileset{ id = "cristals" }
 tileset{ id = "house", description = "House" }
+tileset{ id = "indoors_cabin", description = "indoors_cabin" }
+tileset{ id = "indoors_stone", description = "indoors_stone" }
+tileset{ id = "luz_ventana1" }
 tileset{ id = "mll_hdm" }
 tileset{ id = "oceanheart_outdoors_1", description = "Mundo lal rededor" }
+tileset{ id = "oceanheart_outdoors_2" }
 tileset{ id = "outside", description = "Light Overworld" }
 
 sprite{ id = "animals/bird_red", description = "Red Bird" }
@@ -17,6 +23,7 @@ sprite{ id = "animals/butterfly_pink", description = "Butterfly pink" }
 sprite{ id = "animals/butterfly_purple", description = "Butterfly purple" }
 sprite{ id = "animals/butterfly_white", description = "Butterfly white" }
 sprite{ id = "animals/butterfly_yellow", description = "Butterfly yellow" }
+sprite{ id = "animals/cordero" }
 sprite{ id = "animals/meow_orange", description = "Meow orange" }
 sprite{ id = "animals/mouse", description = "Mouse" }
 sprite{ id = "animals/worf_brown", description = "Worf Brown" }

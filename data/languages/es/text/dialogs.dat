@@ -15,6 +15,16 @@ dialog{
 }
 
 dialog{
+  id = "_game.test_dialog",
+  text = [[
+  $? Continue  $v
+  $? Save and Continue
+  $? Quit $v
+  $? Otro
+]],
+}
+
+dialog{
   id = "_general.saved_game.1",
   text = [[
 Juego guardado!
@@ -213,6 +223,97 @@ antiguo por cierto.
 }
 
 dialog{
+  id = "_sapphire_south.Camila.scena1.1",
+  text = [[
+Camila:
+Te has fijado en las plantas
+que llenan nuestro pueblo? 
+Llantén, romero, caléndulas,
+menta, etc. Inumerables
+remedios naturales, cuánta
+gente está esperando por
+esto...
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Camila.scena1.2",
+  text = [[
+Camila:
+Hay un árbol que permite
+vivir eternamene. Pero, no
+está aquí. Es el más hermoso
+y majestuoso de todos, y 
+produce 12 frutos, uno en 
+cada més. Te gustaría 
+encontrar el camino? 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Caston.scena1.1",
+  text = [[
+Caston:
+No es bello Safiro Sur? Esta
+pequeña región es solo una
+fracción de todo el mundo
+de EMTHA. Todo Emtha está
+destinado a mosrtar la ciencia,
+el amor y la Justicia de Dios,
+según enseña la Biblia.
+Está hecho para enseñar
+de Jesús y Dios a la gente,
+y mostrarle el Plan de Salvación,
+que es el último llamado de Dios
+a la gente de tu mundo.
+Nuestro mundo habla sobre su mundo,
+querido amigo. Si usted desea,
+entenderá cosas increibles. 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Caston.scena1.2",
+  text = [[
+Caston:
+Lamentablemente no puedo
+dejarlo pasar querido amigo.
+Debe descansar primero. Cuando
+termine de hablar con las
+personas de Safiro Sur,
+hable con Erika, para que le
+permita entrar al hostal.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Doris.scena1.1",
+  text = [[
+Doris:
+En nuestro mundo, hay muchas
+escuelas y centros educativos.
+Los alumnos y maestros que están
+en ellas estudian y practican
+lo que Dios enseña. No solo ciencias
+si no tambien trabajos manuales
+como agricultura y carpintería.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Doris.scena1.2",
+  text = [[
+Doris:
+Hace muchos años, Dios nos
+pidió que hiciéramos muchas
+de estas escuelas, y llenáramos
+todo el mundo con ellas. Así
+que esta es nuestra misión,
+fundar más alrededor de Emtha.
+]],
+}
+
+dialog{
   id = "_sapphire_south.Erika.scena1",
   text = [[
 ]],
@@ -220,41 +321,195 @@ dialog{
 
 dialog{
   id = "_sapphire_south.Erika.scena1.1",
-  next = "_sapphire_south.Erika.scena1.2",
   text = [[
 ERIKA:
-Que importante es el aseo
-y el orden. El buen Dios
-del universo, tiene todo
-ordenado ¿no debieramos
-procurar hacer lo mismo?
+Que importante es el aseo y el 
+orden. El buen Dios del universo,
+tiene todo ordenado, ¿no 
+debieramos procurar hacer lo
+mismo?
 ]],
 }
 
 dialog{
   id = "_sapphire_south.Erika.scena1.2",
-  next = "_sapphire_south.Erika.scena1.3",
   text = [[
-PROTAGONISTA:
-Pero el mundo de hoy quita tanto
-tiempo... Con tanto estres, y tanto
-que hacer, no hay tiempo ni 
-siquiera para el orden.
+ERIKA:
+Por favor, mientras termino de
+limpiar el hostal, le invito a
+que pueda conversar con la gente
+del poblado. Recuerde que se 
+aprende mucho más cuando se 
+conversa y se camina.
 ]],
 }
 
 dialog{
-  id = "_sapphire_south.Erika.scena1.3",
+  id = "_sapphire_south.Erika.scena1.4",
+  next = "_sapphire_south.Erika.scena1.5",
   text = [[
 ERIKA:
-Señor, me disculpa, pero eso será
-en su mundo. Aquí, en nuestro 
-reino, hemos aprendido por 
-generaciones a administrar
-nuestro tiempo. Siempre se 
-debe dejar tiempo para ordenar
-y asear. Hay principios de salud
-detrás de esto.
+Al parecer ya ha conversado con
+todos, y yo ya he terminado de 
+ordenar. Solo me falta realizar
+algunas preguntas. Necesitamos
+saber si está progresando en
+este mundo. A medida que aprenda
+irá avanzando más y más. Dios
+quiere que se prepare. Así que
+déjenos evaluarlo por favor.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.5",
+  text = [[
+ $? Una evaluación?, no gracias!.
+ $? Por supuesto, quiero avanzar.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.6",
+  text = [[
+ERIKA:
+Si es esa su decisión, la
+respetamos. Si quiere más
+consejos, Anie le puede ayudar.
+Por favor, piénselo bien.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.7",
+  text = [[
+ERIKA:
+Qué bien!. Por favor, responda
+de acuerdo a lo que ha aprendido
+en este lugar:
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.1",
+  text = [[
+Pregunta 1 de 3:
+
+
+
+El color azúl, en la Biblia,
+representa:
+
+
+ $? La luz
+ $? Las buenas decisiones
+ $? Los mandamientos de Dios 
+ $? No tiene ningun significado
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.1_n",
+  text = [[
+ERIKA:
+Por favor, converse nuevamente
+con la gente del poblado.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.1_r",
+  text = [[
+ERIKA:
+Muy bien querido. El color azul es 
+usados en varias ocaciones por Dios
+para representar sus ley y sus
+normas. En el antiguo testamento,
+no solo había ropas y telas azules,
+si no que Dios se muestra sentado
+en su trono, sobre una base de
+safiro. Bueno, la base de su trono
+en el universo es su ley de amor
+y quiere que la pongamos por
+obra.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.2",
+  text = [[
+Pregunta 2 de 3:
+
+
+
+Los mares y las muchas aguas
+qué representan en el Gran 
+Libro?
+
+ $? La alegría de los hombres
+ $? Mucha gente, voces y problemas
+ $? Mucho silencio
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.2_r",
+  text = [[
+ERIKA:
+Correcto!!! El mar o los mares, 
+Dios los utiliza como figura de
+muchedumbre de gente, y los
+problemas que surgen en la 
+vida. Sabias que Jesús puede
+cuidarte de los problemas?
+Por eso caminó sobre el mar...
+Puedes estudiar más en la 
+Biblioteca del pueblo.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.3",
+  text = [[
+Pregunta 3 de 3:
+
+
+
+Qué enseña nuestro mundo
+Emtha?
+
+
+ $? Mostrar mucha flora y fauna
+ $? El inmeso amor y plan de Dios.
+ $? El último llamado de Dios.
+ $? Alternativas 2 y 3
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.3_r",
+  text = [[
+Erika:
+Exacto! Esa es la misión de este
+mundo, de la historia de este 
+mundo. Dios está haciendo un
+llamado urgente a toda la 
+humanidad, porque queda
+poco tiempo. Hay que creer en
+Jesús y guardar sus mandamientos.
+Te animas a seguir descubriendo
+cosas increibles? Ni siquiera te 
+imaginas lo que Dios quiere 
+enseñarte. Vamos, queda poco 
+tiempo!!.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Erika.scena1.questions.4",
+  text = [[
+ERIKA:     
+Muy bien, lo dejaré pasar.
 ]],
 }
 
@@ -271,12 +526,12 @@ JIMMY:
 Jo jo!... Que bello es este pueblo,
 no te parece? Debes recorrerlo y
 deleitarte en su naturaleza, y en
-su gente. La gente de acá, es muy
-diferente de la gente de los otros
-pueblos. Acá está lleno de vida,
+su gente. Acá está lleno de vida,
 paz. Te invito a que averigues el
 por qué de esta felicidad y
-tranquilidad. Jo jo!
+tranquilidad. La gran luz en lo
+alto está encendida. Examínala
+Jo jo!
 ]],
 }
 
@@ -298,15 +553,77 @@ JIMMY:
 Jo jo! No querido amigo, la 
 bendición de esta tierra se debe
 a algo mucho más elevado
-y profundo. Es algo mucho más
-espiritual. 
-Cuando lo entiendas, podrás 
-replicarlo en tu mundo y 
-beneficiarte no solo tu, si no tus
-seres queridos tambien.
-Jo Jo! Esta es la idea, lo que
-aprendes de la historia de este
-mundo, lo llevas a tu mundo.
+y profundo. Tiene que ver con
+Dios, ser fiel a el y entender
+su gran plan.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Lois.scena1.1",
+  text = [[
+Lois:
+Buenos días querido amigo. Te has
+fijado en los cristales de
+zafiro?
+En la provincia de Zafiro
+es muy común encontrarlos.
+Obviamente hay una enseñanza...
+En nuestro mundo, Emtha, las
+piedras preciosas, y los 
+minerales como el oro o la plata,
+están sobre la superfice y no
+debajo de la tierra. Curioso
+¿No?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Lois.scena1.2",
+  text = [[
+Lois:
+En su mundo, antes del diluvio
+el buen Dios puso los cristales
+y todos los metales preciosos
+sobre la superficie, sobre la
+vegetación. Estas escenas eran 
+espectaculares, pero Dios las
+ocultó después del diluvio,
+ya que vió que el orgullo y 
+la maldad se despierta
+en el corazón del hombre,
+muy facilmente.
+El azul del zafiro, es un símbolo
+de la ley de Dios. 
+
+Puedes ir a la biblioteca si
+quieres informarte más 
+en la Palabra de Dios.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Niko.scena1.1",
+  text = [[
+Niko:
+Increible, el vasto oceano se
+extiende ante nosotros. El mar
+en la palabra de Dios simboliza
+mucha gente, naciones, aunque
+también se puede referir a los
+problemas de la vida diaria.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.Niko.scena1.2",
+  text = [[
+Niko:
+Con estos vinoculares puede
+observar la increible torre
+de luz de la provincia Safiro.
+Fue encendida hace muchos tiempo,
+por hombres y mujeres valientes.
 ]],
 }
 
@@ -314,9 +631,9 @@ dialog{
   id = "_sapphire_south.anie.1",
   next = "_sapphire_south.anie.2",
   text = [[
-NIÑA MISTERIOSA:
-Hola Joven! Bienvenido al poblado
-Safiro. 
+NIÑA MISTERIOSA
+Bienvenido al poblado
+Zafiro. 
 ]],
 }
 
@@ -325,13 +642,10 @@ dialog{
   next = "_sapphire_south.anie.3",
   text = [[
 PROTAGONISTA:
-Hola que tal!. ¿Poblado Safiro?
-Sabe, realmente no
-entiendo.
-¿Cómo llegué aquí?
-No me acuerdo de nada.
-¿Y cuál es su nombre
-señorita?
+Hola qué tal! ¿Poblado Safiro...?
+Sabes, realmente no entiendo
+cómo llegué aquí; No ecuerdo nada.
+Cuál es su nombre, señorita?
 ]],
 }
 
@@ -340,7 +654,7 @@ dialog{
   next = "_sapphire_south.anie.3_1",
   text = [[
 NIÑA MISTERIOSA:
-Mi nombre es Anie. ¿Y el suyo?
+Mi nombre es Anie, y el suyo?
 ]],
 }
 
@@ -349,9 +663,7 @@ dialog{
   next = "_sapphire_south.anie.4",
   text = [[
 PROTAGONISTA:
-¿Mi nombre?
-...
-...
+Mi nombre?
 ...
 ...
 No lo recuerdo!
@@ -363,13 +675,12 @@ dialog{
   next = "_sapphire_south.anie.5",
   text = [[
 NIÑA MISTERIOSA:
-No se preocupe señor.
-Está en un lugar muy bello
-y tranquilo. Es un lugar 
-donde recibirá una enseñanza
-muy importante.
-Usted pidió estar aquí.
-¿No se acuerda?
+No se preocupes... 
+Aquí estará bien. También,
+si así lo quiere, le será 
+reveladada un verdad muy grande. 
+Usted pidió estar aquí. ¿Acaso
+no lo recuerda?
 ]],
 }
 
@@ -377,11 +688,10 @@ dialog{
   id = "_sapphire_south.anie.5",
   text = [[
 PROTAGONISTA:
-Jovencita, no sé de
-qué está hablando, yo
-solo estaba en mis cosas,
-en mis labores cotidianas.
-Yo no he pedido venir
+Jovencita, no sé de qué está
+hablando. Yo solo estaba en 
+mis cosas, en mis labores
+cotidianas. Yo no he pedido venir
 a este lugar.
 ]],
 }
@@ -390,10 +700,10 @@ dialog{
   id = "_sapphire_south.anie.7_descansar",
   text = [[
 ANIE:
-Señor, es necesario 
-que tome un descanso.
-Está a punto de anochecer,
-y mañana será un gran
+Señor, es necesario que tome
+un descanso, pues  parece
+cansado y confundido. El ocaso
+se aproxima y mañana será un gran
 día. 
 ]],
 }
@@ -403,19 +713,18 @@ dialog{
   text = [[
 ANIE:
 Señor, ¿le puedo pedir
-un favor?, se me han 
+un favor? se me han 
 extraviado mis libros
 de dibujo y de 
 investigación. Hay 
 muchos años de 
 trabajo ahí. La última
 vez que estuve 
-dibujando, estaba
-en el muelle, pero lo
+dibujando estaba
+en el muelle; pero lo
 he buscado y no lo 
-encuentro. Por favor,
-¿Me podría
-ayudar a buscarlo?
+encuentro. Por favor,¡ayúdeme!
+
 ]],
 }
 
@@ -424,12 +733,257 @@ dialog{
   text = [[
 ANIE:
 Ha encontrado mis libros!
-Muchas gracias. En estas
-hojas hay muchos hechos
-increibles de la bio-
-diversidad de los 
-campos del poblado 
-Safiro.
+Muchas gracias.
+
+En estas hojas hay muchos
+hechos increibles de la bio-
+diversidad de los campos de
+la región de Safiro.
+Dejaré mis resultados en la 
+Biblioteca, por si desea
+examinarlos.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.consejo.1",
+  next = "_sapphire_south.anie.consejo.2",
+  text = [[
+ANIE:
+Así que ha decidido no seguir.
+Si me permite darle un sonsejo.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.anie.consejo.2",
+  text = [[
+ANIE:
+Por favor, sigame.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.carteles.1",
+  text = [[
+Hostal de Zafiro Sur:
+Donde aprenderá de salud, y 
+entenderá muchas cosas más.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.evaluaciones.1",
+  text = [[
+Pregunta 1:
+El árbol de la vida, es posible acceder a el?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.evaluaciones.1.preg1",
+  text = [[
+ 
+]],
+}
+
+dialog{
+  id = "_sapphire_south.evaluaciones.1.preg2",
+  text = [[
+]],
+}
+
+dialog{
+  id = "_sapphire_south.evaluaciones.1.preg3",
+  text = [[
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Biblia1",
+  text = [[
+PROTAGONISTA:
+En este libro, está subrayada 
+la siguiente cita:
+
+"...Yo te haré subir sobre las
+ alturas de la tierra..." 
+(Isaías 58:14)
+
+Protagonista:
+Y quién será el autor de esta
+frase?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.0",
+  text = [[
+Anie:
+Hola nuevamente querido amigo!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.1",
+  next = "_sapphire_south.hostal1.Principal.2",
+  text = [[
+Anie:
+Veo que ha leído un estracto 
+de la Biblia. Le gustaría subir
+a las alturas de la tierra?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.2",
+  next = "_sapphire_south.hostal1.Principal.3",
+  text = [[
+Protagonista:
+Si, pero no entiendo completamente
+lo que quiere decir.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.3",
+  text = [[
+Anie:
+Su aventura está recién comenzando.
+Hay mucho secretos que aprender,
+Dios quiere mostrarle cosas
+increibles, quiere que veas esta
+vida desde otro punto de vista,
+muy superior. Quiere que ponga
+en práctica sus mandamientos
+y lo conozca. Dios lo está
+llamando ahora. El tiempo es
+demasiado corto, y debe subir
+muy alto. Nosotros le ayudaremos.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.4",
+  text = [[
+Jimmy:
+Este mundo ha sido aparejado para
+las personas que quieren saber
+más de Jesús, y sus leyes
+de amor.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Principal.5",
+  text = [[
+Niko:
+Le ha gustado el pueblo? Y es solo 
+el comienzo. Nuestro mundo,
+Emtha, posee 7 bellos reinos,
+que son en realidad 7 bellos
+montes. En cada reino hay
+muchos poblados y gente
+que te enseñarán cosas 
+muy importantes del gran
+libro de Dios, La Biblia.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.0",
+  text = [[
+Anie:
+Pero antes, hay algo muy
+importante que debo
+mencionarle.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.1",
+  text = [[
+Anie:
+Algo sin el cual, esta 
+historia no podría ser
+investigada por usted.
+Anie:
+Debo hablarle del Principe
+del Universo: su amigo.
+
+Anie:
+Sin su ayuda, usted no
+podrá entender, y no podrá
+subir a las alturas de la
+tierra.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.2",
+  next = "_sapphire_south.hostal1.anie.3",
+  text = [[
+Anie:
+El autor de las
+palabras de este Libro
+es el gran Príncipe,
+Jesús, nuestro Dios. El
+desea que usted aprenda
+de la Biblia. Aquí el 
+pone su voluntad y le
+enseña el secreto para
+que le vaya bien en la
+vida.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.3",
+  next = "_sapphire_south.hostal1.anie.4",
+  text = [[
+Anie:
+Para continuar esta aventura
+exitosamente debemos pedirle
+ayuda.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.4",
+  next = "_sapphire_south.hostal1.anie.5",
+  text = [[
+Anie:
+Necesitamos orar.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.5",
+  text = [[
+Anie:
+Venga lo invitamos!.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.6",
+  next = "_sapphire_south.hostal1.anie.7",
+  text = [[
+Jimmy:
+Dios, enseñale a nuestro
+amigo esta aventura.
+Que puedas guiarlo tanto
+en este mundo como en el suyo.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.7",
+  text = [[
+Jimmy:
+Enseñale sabiduría y
+dale entendimiento para
+que pueda leer tu gran Libro.
 ]],
 }
 

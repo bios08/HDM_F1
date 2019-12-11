@@ -42,7 +42,7 @@ local function create_dialog_box(game)
     dialog = nil,                -- Dialog being displayed or nil.
     first = true,                -- Whether this is the first dialog of a sequence.
     style = nil,                 -- "box" or "empty".
-    position = "bottom",         -- "auto", "top", "bottom" or an x,y table.
+    position = "auto",         -- "auto", "top", "bottom" or an x,y table.
     skip_mode = nil,             -- "none", "current", "all" or "unchanged".
     info = nil,                  -- Parameter passed to start_dialog().
     skipped = false,             -- Whether the player skipped the dialog.
@@ -79,8 +79,9 @@ local function create_dialog_box(game)
     fast = 10  -- Default.
   }
   local letter_sound_delay = 100
-  local box_width = 220
+  local box_width = 320
   local box_height = 60
+  local QUEST_WIDTH = 400
 
   -- Initialize dialog box data.
   local dialog_font, dialog_font_size = "8_bit", nil
@@ -94,9 +95,9 @@ local function create_dialog_box(game)
     }
   end
   dialog_box.dialog_surface = sol.surface.create(sol.video.get_quest_size())
-  dialog_box.box_img = sol.surface.create("hud/dialog_box.png")
-  dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
-  dialog_box.end_lines_sprite = sol.sprite.create("hud/dialog_box_message_end")
+  dialog_box.box_img = sol.surface.create("hud/dialog_box2.png")
+  --dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
+  --dialog_box.end_lines_sprite = sol.sprite.create("hud/dialog_box_message_end")
   dialog_box.choice_cursor_img = sol.text_surface.create{
     horizontal_alignment = "left",
     vertical_alignment = "top",
@@ -140,21 +141,21 @@ local function create_dialog_box(game)
       top = true
     elseif dialog_box.position == "auto" then
       local hero_x, hero_y = map:get_entity("hero"):get_position()
-      if hero_y >= camera_y + (camera_height / 2 + 10) then
+      if hero_y >= camera_y + (camera_height / 2 + 40) then
         top = true
       end
     end
 
     -- Set the coordinates of graphic objects.
     local box_width, box_height = dialog_box.box_img:get_size()
-    local x = camera_width / 2 - box_width / 2
-    local y = top and x or (camera_height - x - box_height)
+    local x = QUEST_WIDTH / 2 - box_width / 2
+    local y = top and 10 or (camera_height - 10 - box_height)
 
     if type(dialog_box.position) == "table" then
       -- Custom position.
       dialog_box.box_dst_position = dialog_box.position
     else
-      dialog_box.box_dst_position = { x = x, y = y }
+      dialog_box.box_dst_position = { x = x, y = y+10 }
     end
   end
 

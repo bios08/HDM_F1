@@ -39,5 +39,10 @@ function charla_con_anie_1(game, anie)
      elseif game:get_value("sap_s_anie1") ==5 then       
         game:start_dialog("_sapphire_south.anie.1")
         game:set_value("sap_s_anie1", 4)
+
+    
+       
+      
+
     end 
 end

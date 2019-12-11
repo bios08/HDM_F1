@@ -26,7 +26,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_ability("sword", 1)
 
   -----------------------------------------------------------------------------------------------
-  -- Para el juego: Historia de los mundos: Los faros -------------------------------------------
+  -- Para el juego: Historia de los mundos:  -------------------------------------------
   -- Por Marlon Llanos
   
 

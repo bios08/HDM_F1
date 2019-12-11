@@ -74,7 +74,7 @@ function title_screen:phase_title()   --<<======== 2 =============
    -- start music
   --sol.audio.play_music("title_screen")
   --sol.audio.play_music("Matthew/soliloquy") 
-  --sol.audio.play_music("Marlon_llanos/Arbol_de_la_vida")
+  sol.audio.play_music("Marlon_llanos/Arbol_de_la_vida")
   -- show a background that depends on the hour of the day
   local hours = tonumber(os.date("%H"))
   local time_of_day

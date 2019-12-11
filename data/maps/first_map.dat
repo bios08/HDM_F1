@@ -836,7 +836,7 @@ teletransporter{
 
 npc{
   layer = 1,
-  x = 360,
+  x = 344,
   y = 21,
   direction = 3,
   subtype = 1,
