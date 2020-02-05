@@ -20,6 +20,10 @@ function map:on_started()
    
   -- You can initialize the movement and sprites of various
   -- map entities here.
+-- Establezco sprites del heroe por defecto
+   hero:set_tunic_sprite_id("hero/oh_hero/tunic1a")
+   hero = game:get_hero()
+   hero:set_walking_speed(speed_hero)
 
 end
 
@@ -240,6 +244,7 @@ elseif game:get_value("sap_s_hostal_anie_1") == 3 then
 
 elseif game:get_value("sap_s_hostal_anie_1") == 4 then
    
+    -- LOS AMIGOS SE ACERCAN PARA ORAR
     hero:freeze()
     local Anie1_p = sol.movement.create("path")
     Anie1_p:set_path{4,4,4,4,4}
@@ -258,11 +263,12 @@ elseif game:get_value("sap_s_hostal_anie_1") == 4 then
     Jimmy_p:set_speed(25) 
     Jimmy_p:set_ignore_obstacles(true)
     Jimmy_p:start(Jimmy)
-
-    -- Entonces en la ultima parte de la conversación, despues de orar
-    -- el protagonista duerme y comienza la escena de despertar
-    -- por lo tanto hago el teletransporte al mismo hostal pero con la bandera de la animacion
-     sol.timer.start(5000, function()
+    sol.timer.start(5000, function()
+       hero:unfreeze()
+    end)
+    
+     -- SE PROCEDE A ORAR
+   
       game:start_dialog("_sapphire_south.hostal1.anie.6", function()
          game:set_value("waking_up_beginning_of_game_cutscene", false)
          game:set_value("sap_s_hostal_anie_1",5)
@@ -280,10 +286,6 @@ elseif game:get_value("sap_s_hostal_anie_1") == 4 then
       end) -- Fin de start_dialog (la oración final)
 
      
-     end)
-      hero:unfreeze()
-      
-      
    
 elseif game:get_value("sap_s_hostal_anie_1") == 5 then    
       
@@ -315,7 +317,7 @@ elseif game:get_value("sap_s_hostal_anie_1") == 5 then
 
 elseif game:get_value("sap_s_hostal_anie_1") == 6 then
       
-      -- Ultima conversación con Anie
+      -- Ultima conversación con Anie, donde lo invita a descanzar
 --- ****
       game:start_dialog("_sapphire_south.hostal1.anie.8")
      -- hero:freeze()
@@ -363,7 +365,7 @@ end
 -- CUANDO TERMINA EL SUEÑO
 function map:on_opening_transition_finished()
    -- Siempre y cuando hayan terminado la charla 1, despues de la oracioón
-   if game:get_value("sap_s_hostal_anie_1") == 7 then
+   if game:get_value("sap_s_hostal_anie_1") == 8 then
    
 
        if not game:get_value("waking_up_beginning_of_game_cutscene") then
@@ -379,7 +381,7 @@ function map:on_opening_transition_finished()
 
         game:set_value("waking_up_beginning_of_game_cutscene", true)
         -- Con esto activo la pantalla de final de piloto 
-        game:set_value("sap_s_hostal_anie_1", 8)
+        game:set_value("sap_s_hostal_anie_1", 9)
 
        end -- if sap_s_hostal_anie_1
   end
@@ -391,23 +393,21 @@ end
 --
 -- CUANDO SE VA A LA CAMA
 function Dream1_a:on_activated()
--- Salto al fin de piloto, solo si ya tuvo el primer sueño de invitación
- if game:get_value("sap_s_hostal_anie_1") == 8 then
+-- Salto al sueño
+ if game:get_value("sap_s_hostal_anie_1") == 7 then
      map:get_hero():teleport("Saphire/Dream1", "destination_dream1")
-     game:set_value("sap_s_hostal_anie_1", "9")
+     game:set_value("sap_s_hostal_anie_1", 8)
 end
 end
 
 -- CUANDO SE VA A LA CAMA
 function Dream1_a:on_activated()
--- Salto al fin de piloto, solo si ya tuvo el primer sueño de invitación
- if game:get_value("sap_s_hostal_anie_1") == 8 then
+-- Salto al sueño
+ if game:get_value("sap_s_hostal_anie_1") == 7 then
      map:get_hero():teleport("Saphire/Dream1", "destination_dream1")
-     game:set_value("sap_s_hostal_anie_1", "9")
+     game:set_value("sap_s_hostal_anie_1", 8)
 end
 end
-
-
 
 
 
