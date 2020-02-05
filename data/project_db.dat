@@ -1,5 +1,7 @@
 map{ id = "0_intro", description = "Mapa de fondo para la introduccion con imagenes" }
 map{ id = "Salida", description = "Salida" }
+map{ id = "Saphire/Dream1", description = "LLamado 1" }
+map{ id = "Saphire/end_pilot" }
 map{ id = "Saphire/hostal" }
 map{ id = "Saphire/hostal_sub" }
 map{ id = "blue_port/sapphire_south", description = "City of sapphire south" }
@@ -102,6 +104,7 @@ sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fresco" }
+sprite{ id = "entities/fresco_dream1" }
 sprite{ id = "entities/fresco_scene1" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
@@ -229,8 +232,10 @@ sprite{ id = "teletransporters/teletransporter_yellow", description = "Teletrans
 
 music{ id = "Himnario/116Ceaml" }
 music{ id = "Marlon_llanos/Amor_obediencia_Dios_ambiente", description = "Marlon_llanos/Amor_obediencia_Dios_ambiente" }
-music{ id = "Marlon_llanos/Amor_y_obediencia_a_Dios" }
+music{ id = "Marlon_llanos/Amor_y_obediencia_a_Dios_d", description = "Marlon_llanos/Amor_y_obediencia_a_Dios_d" }
 music{ id = "Marlon_llanos/Arbol_de_la_vida", description = "Marlon_llanos/Arbol_de_la_vida" }
+music{ id = "Marlon_llanos/Hostal_del_llamado", description = "Marlon_llanos/Hostal_del_llamado" }
+music{ id = "Marlon_llanos/Una_invitacion", description = "Marlon_llanos/Una_invitacion" }
 music{ id = "Matthew/Tropic_Strike" }
 music{ id = "Matthew/soliloquy" }
 music{ id = "eduardo/boss", description = "Boss" }

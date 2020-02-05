@@ -2385,6 +2385,16 @@ tile{
   pattern = "120",
 }
 
+tile{
+  layer = 0,
+  x = 264,
+  y = 56,
+  width = 32,
+  height = 8,
+  pattern = "200",
+  tileset = "indoors_cabin",
+}
+
 destination{
   name = "saphire_hostal_in",
   layer = 0,
@@ -2460,14 +2470,39 @@ npc{
   sprite = "npc/man/man_6.1",
 }
 
-tile{
-  layer = 1,
-  x = 264,
-  y = 56,
-  width = 32,
-  height = 8,
-  pattern = "200",
-  tileset = "indoors_cabin",
+destination{
+  name = "bed_destination",
+  layer = 0,
+  x = 280,
+  y = 85,
+  direction = 1,
+}
+
+sensor{
+  name = "End_pilot",
+  layer = 0,
+  x = 64,
+  y = 117,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "Dream1_a",
+  layer = 0,
+  x = 256,
+  y = 77,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "Dream1_b",
+  layer = 0,
+  x = 272,
+  y = 117,
+  width = 64,
+  height = 16,
 }
 
 tile{

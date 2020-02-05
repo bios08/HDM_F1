@@ -61,7 +61,7 @@ dialog{
   text = [[
 PROTAGONISTA:
 Oh!... Disculpa joven, dónde estoy?
-¿Por qué estoy en medio del mar?
+Por qué estoy en medio del mar?
 ]],
 }
 
@@ -78,7 +78,7 @@ dialog{
   id = "_puerto_azul.npcs.carlos.10",
   text = [[
 PROTAGONISTA:
-¿¿¿???
+???
 ]],
 }
 
@@ -88,7 +88,7 @@ dialog{
   text = [[
 PROTAGONISTA:
 Hola!. Si. Te preguntaba si me
-podrías decir ¿dónde estoy?
+podrías decir dónde estoy?
 Estoy desorientado...
 ]],
 }
@@ -107,7 +107,7 @@ dialog{
   id = "_puerto_azul.npcs.carlos.4",
   text = [[
 PROTAGONISTA:
-¿Qué?.... No entiendo
+Qué?.... No entiendo
 ]],
 }
 
@@ -137,7 +137,7 @@ dialog{
   next = "_puerto_azul.npcs.carlos.8",
   text = [[
 PROTAGONISTA:
-¿Enseñarme?...
+Enseñarme?...
 ]],
 }
 
@@ -154,7 +154,7 @@ dialog{
   id = "_puerto_azul.npcs.carlos.9",
   text = [[
 NIÑO MISTERIOSO:
-¿A casa? Ah, se refiere a
+A casa? Ah, se refiere a
 su mundo.
 Solo tenga paciencia, y esté
 atento a todo lo que hay
@@ -258,7 +258,7 @@ No es bello Safiro Sur? Esta
 pequeña región es solo una
 fracción de todo el mundo
 de EMTHA. Todo Emtha está
-destinado a mosrtar la ciencia,
+destinado a mostrar la ciencia,
 el amor y la Justicia de Dios,
 según enseña la Biblia.
 Está hecho para enseñar
@@ -479,10 +479,10 @@ Qué enseña nuestro mundo
 Emtha?
 
 
- $? Mostrar mucha flora y fauna
+ $? La ciencia del Creador
  $? El inmeso amor y plan de Dios.
  $? El último llamado de Dios.
- $? Alternativas 2 y 3
+ $? Alternativas 1, 2 y 3
 ]],
 }
 
@@ -829,7 +829,7 @@ dialog{
   next = "_sapphire_south.hostal1.Principal.2",
   text = [[
 Anie:
-Veo que ha leído un estracto 
+Veo que ha leído un extracto 
 de la Biblia. Le gustaría subir
 a las alturas de la tierra?
 ]],
@@ -850,16 +850,15 @@ dialog{
   text = [[
 Anie:
 Su aventura está recién comenzando.
-Hay mucho secretos que aprender,
+Hay muchos secretos que aprender,
 Dios quiere mostrarle cosas
-increibles, quiere que veas esta
-vida desde otro punto de vista,
-muy superior. Quiere que ponga
-en práctica sus mandamientos
-y lo conozca. Dios lo está
+increibles. Dios lo está
 llamando ahora. El tiempo es
 demasiado corto, y debe subir
-muy alto. Nosotros le ayudaremos.
+muy alto, ver las cosas
+desde otro punto de vista,
+muy superior.
+Y nosotros le ayudaremos.
 ]],
 }
 
@@ -867,10 +866,13 @@ dialog{
   id = "_sapphire_south.hostal1.Principal.4",
   text = [[
 Jimmy:
-Este mundo ha sido aparejado para
-las personas que quieren saber
-más de Jesús, y sus leyes
-de amor.
+Jo Jo! Bienvenido querido amigo!
+Es tiempo de descanzar. Sabía
+que el descanso adecuado es 
+fundamental para su salud?
+Si se acuesta temprano, no solo 
+su cuerpo se regenerará si no 
+que vivirá más años.
 ]],
 }
 
@@ -904,18 +906,18 @@ dialog{
   id = "_sapphire_south.hostal1.anie.1",
   text = [[
 Anie:
-Algo sin el cual, esta 
-historia no podría ser
-investigada por usted.
+Algo muy terrible ha estado
+sucediendo. Y necesitamos 
+de tu ayuda, por favor.
 Anie:
-Debo hablarle del Principe
-del Universo: su amigo.
-
-Anie:
-Sin su ayuda, usted no
-podrá entender, y no podrá
-subir a las alturas de la
-tierra.
+Las luces altas, los grandes
+faros, repartidos por toda
+Emtha, se están apagando.
+La oscuridad comienza a surgir
+en todos los reinos. Esta
+oscuridad quita la paz, trae
+enfermedades y guerras. Necesitamos
+que puedas encenderlas.
 ]],
 }
 
@@ -924,16 +926,26 @@ dialog{
   next = "_sapphire_south.hostal1.anie.3",
   text = [[
 Anie:
-El autor de las
-palabras de este Libro
-es el gran Príncipe,
-Jesús, nuestro Dios. El
-desea que usted aprenda
-de la Biblia. Aquí el 
-pone su voluntad y le
-enseña el secreto para
-que le vaya bien en la
-vida.
+Y qué es oscuridad?
+No es acaso falta de Luz?
+La oscuridad no es otra cosa
+que olvidarse de Dios. 
+
+
+
+Anie:
+La luz es un símbolo Bíblico.
+Dios es la luz del mundo,
+de la vida. Es el conocimiento
+del verdadero Creador. 
+Si lo miras, si aprendes y 
+practicas, pisaras por
+caminos seguros. Tu camino
+estará iluminado. Entrarás
+en la vida y te irá bien 
+en todo. Eso enseña Dios.
+La oscuridad, sería por tanto,
+todo lo contrario.
 ]],
 }
 
@@ -942,9 +954,18 @@ dialog{
   next = "_sapphire_south.hostal1.anie.4",
   text = [[
 Anie:
-Para continuar esta aventura
+Cuán es importante es que enciendas
+esas luces. Porque es dar luz 
+al mundo. Donde estén los faros,
+debe estar esa luz, sobre todo
+lugar alto, montes, islas, pueblos,
+etc. 
+
+Anie:
+Pero para continuar esta aventura
 exitosamente debemos pedirle
-ayuda.
+ayuda a este buen Dios.
+Has orado alguna vez?
 ]],
 }
 
@@ -953,7 +974,7 @@ dialog{
   next = "_sapphire_south.hostal1.anie.5",
   text = [[
 Anie:
-Necesitamos orar.
+Lo más grande que existe es orar.
 ]],
 }
 
@@ -983,7 +1004,120 @@ dialog{
 Jimmy:
 Enseñale sabiduría y
 dale entendimiento para
-que pueda leer tu gran Libro.
+que pueda comprender tu gran Libro.
+Anie, Jimy, Niko:
+Amén.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.anie.8",
+  text = [[
+Anie:
+Querido, debe descansar.
+Mañana le toca una gran aventura.
+Búsqueme en el Pueblo del
+Árbol, o mejor conocido como
+Safiro Oeste. Ese es mi hogar.
+Que descanse!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1",
+  text = [[
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream0",
+  text = [[
+Hijo...
+
+
+
+Hijo...
+
+
+
+Despierta del sueño por favor!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream1",
+  text = [[
+Mi Ley, hijo.
+
+
+
+Mi Ley.
+
+
+
+Habías escuchado de ella?
+En la Biblia he dado innumerables
+advertencias. El mundo la rechaza.
+Es mi caracter, es la norma de mi
+gobierno.
+Estoy a punto de regresar,
+y traigo mi galardón. Al que me acepte
+y guarde mis mandamientos, le daré
+mi galardón, lo dije en la Biblia.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream2",
+  text = [[
+El mundo ya le queda poco tiempo.
+La tierra se marchita, ya no
+me buscan. No me leen, no se
+informan de mis normas.
+Por esto, por la gran maldad,
+la tierra se estremecerá,
+pero despertará a los que
+escuchan a Dios.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream3",
+  text = [[
+Te traigo a un puerto seguro.
+Un mundo virtual, aparejado
+para que aprendas.
+
+Aquí tendrás una vislumbre
+de lo que te espera si eres
+fiel a Dios.
+
+Este mundo te contará una
+historia, la más grande historia.
+
+
+Debes apreder de la Biblia,
+y tendrás la misión de encender
+los faros de luces en los 
+reinos. Subirás cada vez
+más alto.
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream4",
+  text = [[
+Despierta!
+
+
+
+Despierta, por favor!
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.dream1.dream5",
+  text = [[
 ]],
 }
 
@@ -1001,11 +1135,9 @@ dialog{
   id = "intro0",
   skip = "current",
   text = [[
-$1Al principio Dios creo los cielos
-y la tierra.
-
-Todo estaba oscuro y desordenado.
-
+Al principio Dios creo los cielos
+y la tierra. Todo estaba oscuro y
+desordenado.
 ]],
 }
 
@@ -1013,9 +1145,7 @@ dialog{
   id = "intro1",
   skip = "current",
   text = [[
-$1Pero Dios ordenó que haya luz.
-
-
+Pero Dios ordenó que haya luz.
 El buen creador inició el
 ordenamiento y comenzó a formar
 este bello hogar.
@@ -1026,15 +1156,14 @@ dialog{
   id = "intro2",
   skip = "current",
   text = [[
-$1Con su palabra ordenó y la 
+Con su palabra ordenó y la 
 creación obedeció. En seis días
 literales dió forma a este bello
 mundo y lo llenó de vida.
-
-
 Finalizó con la creación del hombre
-y la mujer, y el séptimo día
-descansó.
+y la mujer, y el séptimo día, el 
+cual es el sábado, descansó.
+
 Y con amor nos ordenó que
 hicieramos lo mismo durante el
 séptimo día.
@@ -1045,7 +1174,7 @@ dialog{
   id = "intro3",
   skip = "current",
   text = [[
-$1Una de las cosas más maravillosas
+Una de las cosas más maravillosas
 que realizó Dios, fué el de crear 
 el más bello y glorioso árbol en
 el mismo centro del Edén. Ese fruto
@@ -1060,14 +1189,13 @@ dialog{
   id = "intro4",
   skip = "current",
   text = [[
- c$1Lamentablemente Adán y
+Lamentablemente Adán y
 Eva desobedecieron, pecaron,
 y fueron expulsados del
 bello huerto.
-
-
 Ángeles poderosos y espadas
 brillantes protegieron el lugar.
+
 
 Ningún desendiente de Adán y Eva
 podría nuevamente comer de su
@@ -1079,7 +1207,7 @@ dialog{
   id = "intro5",
   skip = "current",
   text = [[
-$1Pero la Divinidad hizo un plan.
+Pero la Divinidad hizo un plan.
 Hay una forma de que el Hombre 
 pueda volver a comer del Árbol 
 de la Vida. Y volver a acceder

@@ -35,7 +35,7 @@ La Historia de los Mundos, no contendrá:
 
 ## Lo que este juego SI mostrará
 
-Muchos se preguntarán, ¿que mostrará el juego para que sea atractivo entonces?, si no se va a mostrar lo que por lo general le da vida a los juegos en general. Bueno, hay mucho que mostrar. De hecho, los RPG están llenos de elementos robados de la Biblia y de lo que Dios quiere enseñar, tales como el Árbol de la Vida, la inmortalidad, poderes y milagros, ángeles, piedras preciosas, canciones, iglesias, etc. Dios también es el Dios de las ciencias, de la bella música, del color, de la vida, de la naturaleza, de la energía, de la fuerzas del universo, de la física, de la historia, de la biología etc. Por tanto hay mucho que se puede utilizar para motivar al Jugador a ser un verdadero hijo de Dios.
+Muchos se preguntarán, ¿que mostrará el juego para que sea atractivo entonces?, si no se va a mostrar lo que por lo general le da vida a los juegos. Bueno, hay mucho que mostrar. De hecho, los RPG están llenos de elementos robados de la Biblia y de lo que Dios quiere enseñar, tales como el Árbol de la Vida, la inmortalidad, poderes y milagros, ángeles, piedras preciosas, canciones, iglesias, etc. Dios también es el Dios de las ciencias, de la bella música, del color, de la vida, de la naturaleza, de la energía, de la fuerzas del universo, de la física, de la historia, de la biología etc. Por tanto hay mucho que se puede utilizar para motivar al Jugador a ser un verdadero hijo de Dios.
 
 La Historia de los Mundos, contendrá:
 

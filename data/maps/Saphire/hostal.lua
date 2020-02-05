@@ -10,18 +10,20 @@
 local map = ...
 local game = map:get_game()
 
+--Agregado para la animacion
+local hero = game:get_hero()
+local sprite = hero:get_sprite()
+sol.audio.play_music("Marlon_llanos/Hostal_del_llamado", true)
+
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
+   
   -- You can initialize the movement and sprites of various
   -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
 
 end
+
+
 
 -- INICIALIZO LAS VARIABLES DEL SAVE, SI ES QUE AUN NO SE INICIALIZA: ----------------------------------------------------
  
@@ -60,6 +62,14 @@ if  game:get_value("sap_s_hostal_jimmy_1") == nil then
       game:set_value("sap_s_hostal_jimmy_1",  game:get_value("sap_s_hostal_jimmy_1"))
 end-- if
 
+-- Banera para detectar si estoy despertando despues de la charla n° 1 con el grupo
+
+if  game:get_value("waking_up_beginning_of_game_cutscene") == nil then
+      game:set_value("waking_up_beginning_of_game_cutscene", true)
+  else
+      game:set_value("waking_up_beginning_of_game_cutscene",  game:get_value("waking_up_beginning_of_game_cutscene"))
+end-- if
+
 
 -- INTERACCION CON BIBLIA
 
@@ -72,6 +82,7 @@ function Bible1:on_interaction()
   game:start_dialog("_sapphire_south.hostal1.Biblia1")
 
 if game:get_value("sap_s_hostal_grupo_1") == 0 then
+
 
 
   sol.timer.start(200, function()
@@ -146,6 +157,8 @@ if game:get_value("sap_s_hostal_grupo_1") == 0 then
 
 end --function
 
+
+
 ----INTERACCION CON EL GRUPO
 
 
@@ -181,6 +194,7 @@ if game:get_value("sap_s_hostal_anie_1") < 2 then
            Anie1_p:start(Anie1)
            
            -- Le hablo acerca de Jesús.
+           hero:freeze()
            game:start_dialog("_sapphire_south.hostal1.anie.0")
            sol.timer.start(5000, function() 
              -- Hay algo importante que debo mencionarle.
@@ -194,27 +208,29 @@ if game:get_value("sap_s_hostal_anie_1") < 2 then
              -- Y entregarle su vida. Necesita saber orar.
             game:start_dialog("_sapphire_south.hostal1.anie.1")
                   
-                 game:set_value("sap_s_hostal_anie_1", 2)
+            game:set_value("sap_s_hostal_anie_1", 2)
  
-             
-            
               --game:start_dialog("_sapphire_south.Erika.scena1.4", function(answer)
-
-              
-
+            hero:unfreeze()
            end)
+           
         end
      
 
-
+-- Anie camina ahora hacia la biblia
 elseif game:get_value("sap_s_hostal_anie_1") == 2 then
+     hero:freeze()
      local Anie1_p = sol.movement.create("path")
       Anie1_p:set_path{7,7,7,7,7,7,7,7}
       Anie1_p:set_speed(25) 
       Anie1_p:set_ignore_obstacles(true)
       Anie1_p:start(Anie1)      
       game:set_value("sap_s_hostal_anie_1",3) 
+      sol.timer.start(5000, function() 
+      hero:unfreeze()
 
+   end)
+      
      
 elseif game:get_value("sap_s_hostal_anie_1") == 3 then
  game:start_dialog("_sapphire_south.hostal1.anie.2")   
@@ -224,55 +240,186 @@ elseif game:get_value("sap_s_hostal_anie_1") == 3 then
 
 elseif game:get_value("sap_s_hostal_anie_1") == 4 then
    
+    hero:freeze()
     local Anie1_p = sol.movement.create("path")
-    Anie1_p:set_path{4}
+    Anie1_p:set_path{4,4,4,4,4}
     Anie1_p:set_speed(15) 
     Anie1_p:set_ignore_obstacles(true)
     Anie1_p:start(Anie1)      
     
     local Niko_p = sol.movement.create("path")
-    Niko_p:set_path{0,0,0,0,0,0,0,0,0}
+    Niko_p:set_path{0,0,0,0,0,0}
     Niko_p:set_speed(25)
     Niko_p:set_ignore_obstacles(true)
     Niko_p:start(Niko)    
 
     local Jimmy_p = sol.movement.create("path")
-    Jimmy_p:set_path{0,0,0,0,0,0,0}
+    Jimmy_p:set_path{0,0,0}
     Jimmy_p:set_speed(25) 
     Jimmy_p:set_ignore_obstacles(true)
     Jimmy_p:start(Jimmy)
 
+    -- Entonces en la ultima parte de la conversación, despues de orar
+    -- el protagonista duerme y comienza la escena de despertar
+    -- por lo tanto hago el teletransporte al mismo hostal pero con la bandera de la animacion
      sol.timer.start(5000, function()
-      game:start_dialog("_sapphire_south.hostal1.anie.6")
+      game:start_dialog("_sapphire_south.hostal1.anie.6", function()
+         game:set_value("waking_up_beginning_of_game_cutscene", false)
+         game:set_value("sap_s_hostal_anie_1",5)
+         --map:get_hero():teleport("Saphire/hostal", "bed_destination")
+         --map:get_hero():teleport("0_intro", "destination")
+        
+
+
+
+     -- map:get_hero():teleport("Saphire/Dream1", "destination_dream1")
+         
+      -- Anie1:set_position(-16,-24)
+        
+
+      end) -- Fin de start_dialog (la oración final)
+
+     
      end)
+      hero:unfreeze()
+      
+      
+   
+elseif game:get_value("sap_s_hostal_anie_1") == 5 then    
+      
+    -- LOS AMIGOS SE RETIRAN
+      hero:freeze()
+      local Niko_p2 = sol.movement.create("path")
+      Niko_p2:set_path{4,4,4,4,4,4,4,4,4,4,4}
+      Niko_p2:set_speed(25)
+      Niko_p2:set_ignore_obstacles(true)
+      Niko_p2:start(Niko)    
 
-    game:set_value("sap_s_hostal_anie_1",5)
+      local Jimmy_p2 = sol.movement.create("path")
+      Jimmy_p2:set_path{3,3,3,4,4,4,4,4,4,4}
+      Jimmy_p2:set_speed(25) 
+      Jimmy_p2:set_ignore_obstacles(true)
+      Jimmy_p2:start(Jimmy)
+       
+      -- Salen por la puerta
+      -- Este delay es para que haya un momento de espera, para la caminata.
+      -- Si no ponemos esto, se desaparecen inmediatamente.
+      sol.timer.start(4400, function()
+        Niko:set_position(-16,0)
+        Jimmy:set_position(-16,-32) 
+        hero:unfreeze() 
+        
+      end)
 
+      game:set_value("sap_s_hostal_anie_1",6)
 
-elseif game:get_value("sap_s_hostal_anie_1") == 5 then
-    
-    
-    game:set_starting_location("0_intro", nil)
-    game:set_value("sap_s_hostal_anie_1",6)
-    
-    
+elseif game:get_value("sap_s_hostal_anie_1") == 6 then
+      
+      -- Ultima conversación con Anie
+--- ****
+      game:start_dialog("_sapphire_south.hostal1.anie.8")
+     -- hero:freeze()
+      local Anie_p2 = sol.movement.create("path")
+      Anie_p2:set_path{3,3,4,4,4,4,4,4,4,4,4,4,4,4,4}
+      Anie_p2:set_speed(25)
+      Anie_p2:set_ignore_obstacles(true)
+      Anie_p2:start(Anie1) 
+      -- Pongo el delay de espera para ver como camina
+      sol.timer.start(5000, function()
+        Anie1:set_position(-16,0)
+        --hero:unfreeze()
+      end)
+      game:set_value("sap_s_hostal_anie_1",7)
 
 end
    
  
-
-
-
 end --function
+
+
+-- CONVERSACIONES
 
 function Niko:on_interaction()
   game:start_dialog("_sapphire_south.hostal1.Principal.5")
   game:set_value("sap_s_hostal_niko_1", 1)
+ 
+ 
 end
 
 function Jimmy:on_interaction()
   game:start_dialog("_sapphire_south.hostal1.Principal.4")
   game:set_value("sap_s_hostal_jimmy_1", 1)
 end
+
+
+
+function map:on_started()
+
+  -- Si entramos al hostal, pero ya el grupo tuvo la conversación 1
+
+
+end
+
+-- CUANDO TERMINA EL SUEÑO
+function map:on_opening_transition_finished()
+   -- Siempre y cuando hayan terminado la charla 1, despues de la oracioón
+   if game:get_value("sap_s_hostal_anie_1") == 7 then
+   
+
+       if not game:get_value("waking_up_beginning_of_game_cutscene") then
+        hero:freeze()
+        sprite:set_animation("asleep")
+        sol.timer.start(map, 500, function()
+          sprite:set_animation("waking_up", function()
+            sprite:set_animation("stopped")
+            hero:start_jumping(4, 24, true)
+            sol.timer.start(map, 500, function() hero:unfreeze() end)
+          end)
+        end)
+
+        game:set_value("waking_up_beginning_of_game_cutscene", true)
+        -- Con esto activo la pantalla de final de piloto 
+        game:set_value("sap_s_hostal_anie_1", 8)
+
+       end -- if sap_s_hostal_anie_1
+  end
+
+
+end
+
+
+--
+-- CUANDO SE VA A LA CAMA
+function Dream1_a:on_activated()
+-- Salto al fin de piloto, solo si ya tuvo el primer sueño de invitación
+ if game:get_value("sap_s_hostal_anie_1") == 8 then
+     map:get_hero():teleport("Saphire/Dream1", "destination_dream1")
+     game:set_value("sap_s_hostal_anie_1", "9")
+end
+end
+
+-- CUANDO SE VA A LA CAMA
+function Dream1_a:on_activated()
+-- Salto al fin de piloto, solo si ya tuvo el primer sueño de invitación
+ if game:get_value("sap_s_hostal_anie_1") == 8 then
+     map:get_hero():teleport("Saphire/Dream1", "destination_dream1")
+     game:set_value("sap_s_hostal_anie_1", "9")
+end
+end
+
+
+
+
+
+-- ULTIMA PARTE DEL PILOTO
+-- se activará cuando ya se haya soñado,
+-- se irá a una pantalla especial.
+function End_pilot:on_activated()
+-- Salto al fin de piloto, solo si ya tuvo el primer sueño de invitación
+ if game:get_value("sap_s_hostal_anie_1") == 9 then
+    map:get_hero():teleport("Saphire/end_pilot", "destination_end_pilot") 
+end
+end
+
 
 

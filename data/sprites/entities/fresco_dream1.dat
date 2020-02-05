@@ -1,0 +1,60 @@
+animation{
+  name = "0",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 171, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 171, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 171, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 171, frame_width = 300, frame_height = 171, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "2",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 342, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 342, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 342, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 342, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "3",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 513, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 513, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 513, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 513, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "4",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 684, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 684, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 684, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 684, frame_width = 300, frame_height = 171, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "5",
+  src_image = "entities/fresco_dream1.png",
+  directions = {
+    { x = 0, y = 855, frame_width = 400, frame_height = 240, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 855, frame_width = 400, frame_height = 240, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 855, frame_width = 400, frame_height = 240, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 855, frame_width = 400, frame_height = 240, origin_x = 8, origin_y = 13 },
+  },
+}

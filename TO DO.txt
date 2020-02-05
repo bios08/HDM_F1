@@ -8,3 +8,15 @@
 
 -- Buscar 1 item, para Anie. (Libro de dibujos) (Ok)
 -- Agregar barco en el muelle y un personaje.  (Ok)
+
+
+
+
+-- Agregar Biblioteca, con las citas de lo que hemos hablado en el piloto.
+--En la Biblioteca poner papers sobre Animales, vegetales, insectos y piedras preciosas. Relacionadas con la Biblia.
+
+
+-- Abreviar un poco mas los textos.
+-- Quitar menu.
+-- Hacer entradas al oeste, Pueblo del Arbol.
+-- Poner algunos textos de la Biblia y Espiritu de Profecía y de Lore.

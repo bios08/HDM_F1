@@ -698,6 +698,26 @@ tile{
   tileset = "oceanheart_outdoors_1",
 }
 
+tile{
+  layer = 0,
+  x = 408,
+  y = 488,
+  width = 32,
+  height = 16,
+  pattern = "3",
+  tileset = "oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 464,
+  width = 32,
+  height = 32,
+  pattern = "2",
+  tileset = "oceanheart_outdoors_1",
+}
+
 npc{
   name = "BoatTrad1",
   layer = 0,
@@ -780,7 +800,7 @@ tile{
 
 tile{
   layer = 2,
-  x = 128,
+  x = 136,
   y = 552,
   width = 304,
   height = 256,
