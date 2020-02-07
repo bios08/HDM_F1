@@ -366,7 +366,7 @@ end
 -- VINOCULARES
 
 function Vin_1:on_interaction()
-     
+  sol.audio.play_sound("hero_lands")
   require("scripts/gallery/tower_mountain")
   tower_mountain:update_game(game)
 
@@ -386,6 +386,10 @@ function Vin_1:on_interaction()
 end
 
 
+function Let_zaf_oeste:on_interaction()
+   game:start_dialog("_sapphire_south.carteles.2")
+   sol.audio.play_sound("hero_lands")
+end
 
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------

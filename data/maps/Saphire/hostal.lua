@@ -159,6 +159,14 @@ if game:get_value("sap_s_hostal_grupo_1") == 0 then
   end --if
 
 
+--SI ES QUE SE LEE LA BIBLIA, PERO YA SE CONVERSO Y SE SOÑÓ
+
+
+if game:get_value("sap_s_hostal_anie_1") == 9 then
+    game:start_dialog("_sapphire_south.hostal1.Biblia1")    
+end
+
+
 end --function
 
 
@@ -264,8 +272,8 @@ elseif game:get_value("sap_s_hostal_anie_1") == 4 then
     Jimmy_p:set_ignore_obstacles(true)
     Jimmy_p:start(Jimmy)
     sol.timer.start(5000, function()
-       hero:unfreeze()
-    end)
+      
+    
     
      -- SE PROCEDE A ORAR
    
@@ -282,9 +290,9 @@ elseif game:get_value("sap_s_hostal_anie_1") == 4 then
          
       -- Anie1:set_position(-16,-24)
         
-
+        hero:unfreeze()
       end) -- Fin de start_dialog (la oración final)
-
+end)
      
    
 elseif game:get_value("sap_s_hostal_anie_1") == 5 then    
@@ -336,7 +344,7 @@ elseif game:get_value("sap_s_hostal_anie_1") == 6 then
 end
    
  
-end --function
+end -- funcion
 
 
 -- CONVERSACIONES
@@ -363,6 +371,7 @@ function map:on_started()
 end
 
 -- CUANDO TERMINA EL SUEÑO
+-- ESCENA EN QUE SE LEVANTA
 function map:on_opening_transition_finished()
    -- Siempre y cuando hayan terminado la charla 1, despues de la oracioón
    if game:get_value("sap_s_hostal_anie_1") == 8 then

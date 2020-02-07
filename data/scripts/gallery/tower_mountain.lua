@@ -8,7 +8,7 @@ local stats_box = sol.surface.create(144, 48)
 
 local inventory_box = sol.surface.create(78, 152)
 
-local pause_img = sol.surface.create("hud/torre_luz.png")
+local pause_img = sol.surface.create("hud/torre_luz_o.png")
 
  
 local text_surface = sol.text_surface.create({

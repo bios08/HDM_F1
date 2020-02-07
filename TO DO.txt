@@ -16,7 +16,23 @@
 --En la Biblioteca poner papers sobre Animales, vegetales, insectos y piedras preciosas. Relacionadas con la Biblia.
 
 
--- Abreviar un poco mas los textos.
--- Quitar menu.
--- Hacer entradas al oeste, Pueblo del Arbol.
+-- Abreviar un poco mas los textos. (avance...)
+-- Quitar menu. (
+-- Cortar el pelo, cuando está dormido o cuando corta.
+-- Hacer entradas al oeste, Pueblo del Arbol. (Listo)
+
+
 -- Poner algunos textos de la Biblia y Espiritu de Profecía y de Lore.
+-- Dibujar algunos elementos de la naturaleza, en enciclopedia Emtha.
+
+
+
+-- Pero dentro de muy poco, el hombre y la mujer
+-- retornarán. Dios ha trazado un Plan,
+-- y ha habierto un camino.
+-- Pero muy pocos atienden.
+-- Y el tiempo es corto.
+
+-- Luz, acercate a la Luz. Aprende
+-- y practica lo que te muestra la
+-- Luz.

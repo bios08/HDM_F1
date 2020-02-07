@@ -23,6 +23,6 @@ npc{
   y = 20,
   direction = 3,
   subtype = 1,
-  sprite = "entities/fresco_dream1",
+  sprite = "entities/fresco",
 }
 

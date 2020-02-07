@@ -20,7 +20,7 @@ local fresco_scene1_sprite = nil
 -- Es recursiva a si que se llamará a si misma
 -- según la cantidad dada con f_index < 2
 local function next_f()   -- <<========= (1)
-  if f_index < 4 then
+  if f_index < 5 then
     f_index = f_index + 1
     game:start_dialog("intro" .. f_index,  function()
       fresco_scene1_sprite:fade_out()

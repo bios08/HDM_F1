@@ -99,7 +99,7 @@ dialog{
   text = [[
 NIÑO MISTERIOSO:
 Si se lo digo no me creería...
-Pero usted lo descubrira. 
+Pero usted lo descubrirá. 
 ]],
 }
 
@@ -675,7 +675,7 @@ dialog{
   next = "_sapphire_south.anie.5",
   text = [[
 NIÑA MISTERIOSA:
-No se preocupes... 
+No se preocupe... 
 Aquí estará bien. También,
 si así lo quiere, le será 
 reveladada un verdad muy grande. 
@@ -773,6 +773,15 @@ entenderá muchas cosas más.
 }
 
 dialog{
+  id = "_sapphire_south.carteles.2",
+  text = [[
+Zafiro Oeste:
+Mejor conocido como el 
+Pueblo del Árbol.
+]],
+}
+
+dialog{
   id = "_sapphire_south.evaluaciones.1",
   text = [[
 Pregunta 1:
@@ -813,6 +822,29 @@ la siguiente cita:
 Protagonista:
 Y quién será el autor de esta
 frase?
+]],
+}
+
+dialog{
+  id = "_sapphire_south.hostal1.Biblia2",
+  text = [[
+"...Yo te haré subir sobre las
+ alturas de la tierra..." 
+(Isaías 58:14)
+
+"Y este es el mensaje que hemos
+oído de El y que os anunciamos:
+Dios es luz, y en El no hay
+tiniebla alguna…"
+(1 Juan 1:5-7)
+
+"Yo soy el SEÑOR, en justicia te
+he llamado; te sostendré por la
+mano y por ti velaré, y te pondré
+como pacto para el pueblo, como luz
+para las naciones,…"
+(Isaías 42:6,7,16)
+
 ]],
 }
 
@@ -919,8 +951,8 @@ Emtha, se están apagando.
 La oscuridad comienza a surgir
 en todos los reinos. Esta
 oscuridad quita la paz, trae
-enfermedades y guerras. Necesitamos
-que puedas encenderlas.
+enfermedades y guerras. 
+Necesitamos que puedas encenderlas.
 ]],
 }
 
@@ -933,7 +965,7 @@ Y qué es oscuridad?
 No es acaso falta de Luz?
 La oscuridad no es otra cosa
 que olvidarse de Dios. 
-
+Jesús es la Luz.
 
 
 Anie:
@@ -962,7 +994,11 @@ esas luces. Porque es dar luz
 al mundo. Donde estén los faros,
 debe estar esa luz, sobre todo
 lugar alto, montes, islas, pueblos,
-etc. 
+etc. Y la gente sabrá como
+acceder nuevamente a la Vida
+Eterna, al Árbol de la Vida
+Perdido, el nuevo Eden.
+
 
 Anie:
 Pero para continuar esta aventura
@@ -985,7 +1021,7 @@ dialog{
   id = "_sapphire_south.hostal1.anie.5",
   text = [[
 Anie:
-Venga lo invitamos!.
+Venga lo invitamos!
 ]],
 }
 
@@ -1209,7 +1245,7 @@ fruto y vivir así para siempre.
 
 dialog{
   id = "intro5",
-  skip = "current",
+  next = "intro6",
   text = [[
 Pero la Divinidad hizo un plan.
 Hay una forma de que el Hombre 
@@ -1218,6 +1254,27 @@ de la Vida. Y volver a acceder
 a una vida sin muerte y dolor,
 como era al principio. Uno solo
 es el camino.
+]],
+}
+
+dialog{
+  id = "intro6",
+  text = [[
+Y dentro de muy poco, el
+hombre y la mujer retornarán.
+
+
+Dios ha trazado un Plan,
+y ha abierto un camino.
+
+
+Pero muy pocos atienden,
+y el tiempo es muy corto.
+
+
+La Luz brilla aún. Aprende
+y practica lo que te muestra la
+Luz. Observa y aprende.
 ]],
 }
 

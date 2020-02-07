@@ -48,3 +48,13 @@ animation{
     { x = 0, y = 720, frame_width = 300, frame_height = 180, origin_x = 0, origin_y = 0 },
   },
 }
+animation{
+  name = "5",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 900, frame_width = 380, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 900, frame_width = 380, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 900, frame_width = 380, frame_height = 180, origin_x = 0, origin_y = 0 },
+    { x = 0, y = 900, frame_width = 380, frame_height = 180, origin_x = 0, origin_y = 0 },
+  },
+}
