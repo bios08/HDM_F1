@@ -254,6 +254,7 @@ music{ id = "eduardo/sword_fanfare", description = "Sword fanfare" }
 music{ id = "eduardo/title_screen", description = "Title screen" }
 music{ id = "eduardo/village", description = "Village" }
 music{ id = "eduardo/witch_hut", description = "Witch" }
+music{ id = "max/fire_burning", description = "max/fire_burning" }
 music{ id = "waves_of_hawaii" }
 
 sound{ id = "acept_option", description = "acept_option" }
@@ -313,6 +314,10 @@ sound{ id = "key_fall", description = "key_fall" }
 sound{ id = "lamp", description = "lamp" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "magnet1", description = "magnet1" }
+sound{ id = "marlon/Cursor_1", description = "marlon/Cursor_1" }
+sound{ id = "max/fire_burning", description = "max/fire_burning" }
+sound{ id = "max/piece_of_heart", description = "max/piece_of_heart" }
+sound{ id = "max/secret", description = "max/secret" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "money_counter", description = "money_counter" }
@@ -359,6 +364,7 @@ sound{ id = "thunder_double", description = "thunder_double" }
 sound{ id = "thunder_far", description = "thunder_far" }
 sound{ id = "timer", description = "timer" }
 sound{ id = "timer2", description = "timer2" }
+sound{ id = "timer_1", description = "timer_1" }
 sound{ id = "timer_hurry", description = "timer_hurry" }
 sound{ id = "tongue", description = "tongue" }
 sound{ id = "treasure", description = "treasure" }

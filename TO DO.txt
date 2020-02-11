@@ -18,10 +18,10 @@
 
 -- Abreviar un poco mas los textos. (avance...)
 -- Quitar menu. (
--- Cortar el pelo, cuando está dormido o cuando corta.
+-- Cortar el pelo, cuando está dormido o cuando corta. (Listo)
 -- Hacer entradas al oeste, Pueblo del Arbol. (Listo)
 
-
+-- Cortar el pelo, cuando recoge piedras o cuando corta el pasto
 -- Poner algunos textos de la Biblia y Espiritu de Profecía y de Lore.
 -- Dibujar algunos elementos de la naturaleza, en enciclopedia Emtha.
 

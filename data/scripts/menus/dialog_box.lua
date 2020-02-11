@@ -444,7 +444,7 @@ local function initialize_dialog_box_features(game)
 
     if not special and current_char ~= nil and self.need_letter_sound then
       -- Play a letter sound sometimes.
-      sol.audio.play_sound("message_letter")
+      sol.audio.play_sound("timer")
       self.need_letter_sound = false
       sol.timer.start(self, letter_sound_delay, function()
         self.need_letter_sound = true

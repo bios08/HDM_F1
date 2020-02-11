@@ -74,11 +74,11 @@ local function create_dialog_box(game)
   -- Constants.
   local nb_visible_lines = 4     -- Maximum number of lines in the dialog box.
   local char_delays = {
-    slow = 20, --150
-    medium = 20,--90
-    fast = 20  --10 Default.
+    slow = 40, --150
+    medium = 40,--90
+    fast = 40  --10 Default.
   }
-  local letter_sound_delay = 100
+  local letter_sound_delay = 150
   local box_width = 320
   local box_height = 60
   local QUEST_WIDTH = 400
@@ -437,7 +437,7 @@ local function create_dialog_box(game)
 
     if not special and current_char ~= nil and self.need_letter_sound then
       -- Play a letter sound sometimes.
-      sol.audio.play_sound("message_letter")
+      --sol.audio.play_sound("message_letter")
       self.need_letter_sound = false
       sol.timer.start(self, letter_sound_delay, function()
         self.need_letter_sound = true
@@ -528,7 +528,8 @@ local function create_dialog_box(game)
           and not self:has_more_lines()
           and self:is_full() then
 
-        sol.audio.play_sound("cursor")
+        sol.audio.play_sound("marlon/Cursor_1")
+        --sol.audio.play_sound("cursor")
         local line_index = self.selected_choice
 
         if command == "down" then
