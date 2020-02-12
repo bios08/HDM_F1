@@ -80,7 +80,7 @@ La Historia de los Mundos, contendrá:
 
 Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudarías mucho si lo respondieras.
 
-https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/
+<a class="nav-link" href="https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/ ">https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/ </a>
 
 
 ## ALGUNOS SCREENSHOTS
