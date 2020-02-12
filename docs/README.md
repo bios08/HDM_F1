@@ -14,7 +14,7 @@
         <a class="nav-link" href="#">Descarga la versión piloto v1.0 (pronto)</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Ayúdanos realizando una encuesta</a>
+        <a class="nav-link" href="#encuesta">Ayúdanos realizando una encuesta</a>
       </li>
      <li class="nav-item">
         <a class="nav-link" href="#">Escríbenos</a>
@@ -75,6 +75,16 @@ La Historia de los Mundos, contendrá:
   - Temas referentes a la verdadera educación
   - Temas referente al Santuario y la interseción de Jesús.
   
+<A NAME="encuesta">
+## ENCUESTA
+
+Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudarías mucho si lo respondieras.
+
+https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/
+
+
+## ALGUNOS SCREENSHOTS
+
 <img src="Images/Captura1.JPG"/>
 <img src="Images/Captura2.JPG"/>
 <img src="Images/Captura3.JPG"/>

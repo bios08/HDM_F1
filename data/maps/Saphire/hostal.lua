@@ -15,7 +15,7 @@ local hero = game:get_hero()
 local sprite = hero:get_sprite()
 sol.audio.play_music("Marlon_llanos/Hostal_del_llamado", true)
 --
-sol.audio.play_music("max/fire_burning", true)-- con loop
+sol.audio.play_sound("max/fire_burning", true)-- con loop
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
