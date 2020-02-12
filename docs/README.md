@@ -2,22 +2,28 @@
 ## Encendiendo las luces en lugares dificiles de llegar
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Indice</a>
 
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Sobre este juego <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Sobre este juego <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#bitleaf">Ministerio bitLeaf<span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Descarga la versión piloto v1.0 (pronto)</a>
+        <a class="nav-link" href="#piloto">Descarga la versión piloto v1.0 (pronto)</a>
       </li>
      <li class="nav-item">
         <a class="nav-link" href="#encuesta">Ayúdanos realizando una encuesta</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Escríbenos</a>
+        <a class="nav-link" href="#escribenos">Escríbenos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#donacion">Donación</a>
       </li>
 
     </ul>
@@ -75,6 +81,12 @@ La Historia de los Mundos, contendrá:
   - Temas referentes a la verdadera educación
   - Temas referente al Santuario y la interseción de Jesús.
   
+<A NAME="piloto">
+## VERSION PILOTO
+
+Muy pronto estará disponible la primera versión de este juego. Esta contendrá solo unos minutos, del primer capítulo. Esto permitirá a mucha gente darse una idea de este proyecto misionero, cuya finalizdad es dar a conocer el evangelio pero en un formato fresco y diferente. 
+
+
 <A NAME="encuesta">
 ## ENCUESTA
 
@@ -82,6 +94,13 @@ Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudar
 
 <a class="nav-link" href="https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/ ">https://bitleaf.wufoo.com/forms/la-historia-de-los-mundos/ </a>
 
+
+<A NAME="escribenos">
+## ESCRÍBENOS
+
+¿Qué te parece este proyecto? ¿Tienes alguna obseración?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús Cualquier?, anímate a escribirnos. 
+
+bitleaf@protonmail.com
 
 ## ALGUNOS SCREENSHOTS
 
