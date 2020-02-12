@@ -124,7 +124,7 @@ bitleaf@protonmail.com
 <A NAME="donacion">
 ## QUIERES AYUDARNOS CON DONACIONES
 
-El desarrollo de un videojuegos es muy lento y caro. En la creación de estas, generalmente trabajan muchos profesionales con increibles talentos y capacidades artísticas, donde hay inversiones de millones de pesos.  Personalemnte me he hecho el compromiso de que todo sea gratuito y basado en Codigo Libre, y aunque con esto puedo acceder a variadas herramientas gratuitas y ahorrar muchísimo dinero,  es también una forma de acceder a muchas más personas en el mundo. 
+El desarrollo de un videojuegos es muy lento y caro. En la creación de estas, generalmente trabajan muchos profesionales con increibles talentos y capacidades artísticas, donde hay inversiones de millones en dinero y recursos.  Personalemnte me he hecho el compromiso de que todo sea gratuito y basado en Codigo Libre, y aunque con esto puedo acceder a variadas herramientas gratuitas y ahorrar muchísimo dinero,  es también una forma de acceder a muchas más personas en el mundo. (Software Open Source)
 
  Pero, una sola persona no basta. Solo para finalizar la versión piloto, con el poco tiempo libre que tengo, me he demorado casi 10 meses. Planificar la historia, los tópicos, hacer los dibujos, crear la música, aprender la herramienta de programación, etc., requiere  muchas horas. 
 
