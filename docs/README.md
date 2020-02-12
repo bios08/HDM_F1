@@ -1,5 +1,5 @@
 # La Historia de los Mundos
-## Encendiendo las luces en lugares dificiles de llegar
+## Encendiendo las luces en lugares difíciles de llegar
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Indice</a>
@@ -98,7 +98,7 @@ Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudar
 <A NAME="escribenos">
 ## ESCRÍBENOS
 
-¿Qué te parece este proyecto? ¿Tienes alguna obseración?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús Cualquier?, anímate a escribirnos. 
+¿Qué te parece este proyecto? ¿Tienes alguna obseración?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús?, anímate a escribirnos. 
 
 bitleaf@protonmail.com
 
