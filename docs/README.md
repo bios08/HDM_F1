@@ -81,10 +81,21 @@ La Historia de los Mundos, contendrá:
   - Temas referentes a la verdadera educación
   - Temas referente al Santuario y la interseción de Jesús.
   
+<A NAME="bitleaf">
+## Ministerio bitLeaf
+
+BitLeaf (suena muy parecido a believe) es un ministerio que tiene por finalidad comunicar rápidamente de Jesús, de su amor, el arrepentimiento genuino, y la vida santa que Dios quiere, pero en un formato contemporáneo, ligado a la naturaleza y a la tecnología interactiva que hoy predomina en el mundo. Pero está destinado a las personas que se han vuelto dependientes a los videojuegos, y no pueden salir. Parece un ministerio extraño, y usted podrá preguntarse ¿podemos usar un video Juego para evangelizar? Pero, dependiendo de la generación a la que usted pertenezca, esta pregunta podrá tenér diferentes respuestas.
+
+La Historia de los Mundos, sería un primer proyecto. Pero hay que considerar que este proyecto es para niños, jovenes y adultos que están inmsersos en los video juegos, y que no es fácil sacarlos. Historia de los Munos es para ellos, porque quizas no hay otra forma de entrar en su realidad. Lamentablemente esto es parte de la gran mayoría de los jovenes y un gran porcentaje de adultos. Y en las nuevas generaciones, esto irá en aumento lamentablemente, incluyendo la madad y pecados que hay en ellos.
+
+Pero mi consejo es el siguiente, si usted es un cristiano Adventista, que conoce la verdad,  y sus niños son aún pequeño y no han tenido contacto aún con videojuegos,  yo le pido encarecidamente que eduque a los niños sin videojuegos, restringiendo lo más posible la tecnología y las pantallas, ya que el enemigo está adoctrinando al mundo con ellos, y creando una generación nueva y muy diferente a cualquier otra generación. Donde la confusión y la oscuridad estará grabada en sus mentes desde pequeño.
+
+Si usted tiene la oportunidad de realizar la Verdadera Educación, tal cual se enseña en los libros de Elena de White, educando en casa, y retirado de las ciudades,  por favor háganlo, y no use este video juego (La Historia de los Mundos).
+
 <A NAME="piloto">
 ## VERSION PILOTO
 
-Muy pronto estará disponible la primera versión de este juego. Esta contendrá solo unos minutos, del primer capítulo. Esto permitirá a mucha gente darse una idea de este proyecto misionero, cuya finalizdad es dar a conocer el evangelio pero en un formato fresco y diferente. 
+Muy pronto estará disponible la primera versión de este juego. Esta contendrá algunos minutos del primer capítulo. Esto permitirá a mucha gente darse una idea de este proyecto misionero, cuya finalizdad es dar a conocer el evangelio pero en un formato fresco y diferente.
 
 
 <A NAME="encuesta">
@@ -98,7 +109,7 @@ Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudar
 <A NAME="escribenos">
 ## ESCRÍBENOS
 
-¿Qué te parece este proyecto? ¿Tienes alguna obseración?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús?, anímate a escribirnos. 
+¿Qué te parece este proyecto? ¿Tienes alguna observación?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús?, anímate a escribirnos. 
 
 bitleaf@protonmail.com
 
