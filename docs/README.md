@@ -14,16 +14,16 @@
         <a class="nav-link" href="#bitleaf">Ministerio bitLeaf<span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#piloto">Descarga la versión piloto v1.0 (pronto)</a>
+        <a class="nav-link" href="#piloto">Descargue la versión piloto v1.0 (pronto)</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#encuesta">Ayúdanos realizando una encuesta</a>
+        <a class="nav-link" href="#encuesta">Ayúdenos realizando una encuesta</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#escribenos">Escríbenos</a>
+        <a class="nav-link" href="#escribenos">Escríbanos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#donacion">Donación</a>
+        <a class="nav-link" href="#donacion">Donaciones</a>
       </li>
 
     </ul>
@@ -84,13 +84,20 @@ La Historia de los Mundos, contendrá:
 <A NAME="bitleaf">
 ## Ministerio bitLeaf
 
+¿Te imaginas llevar la Biblia y el Conflicto de los Siglos, hacer un estudio bíblico en el própio lenguaje de los jóvenes, a travez de una historia interactiva? Bueno, esto es la misión de bitLeaf.
+
 BitLeaf (suena muy parecido a believe) es un ministerio que tiene por finalidad comunicar rápidamente de Jesús, de su amor, el arrepentimiento genuino, y la vida santa que Dios quiere, pero en un formato contemporáneo, ligado a la naturaleza y a la tecnología interactiva que hoy predomina en el mundo. Pero está destinado a las personas que se han vuelto dependientes a los videojuegos, y no pueden salir. Parece un ministerio extraño, y usted podrá preguntarse ¿podemos usar un video Juego para evangelizar? Pero, dependiendo de la generación a la que usted pertenezca, esta pregunta podrá tenér diferentes respuestas.
 
-La Historia de los Mundos, sería un primer proyecto. Pero hay que considerar que este proyecto es para niños, jovenes y adultos que están inmsersos en los video juegos, y que no es fácil sacarlos. Historia de los Munos es para ellos, porque quizas no hay otra forma de entrar en su realidad. Lamentablemente esto es parte de la gran mayoría de los jovenes y un gran porcentaje de adultos. Y en las nuevas generaciones, esto irá en aumento lamentablemente, incluyendo la madad y pecados que hay en ellos.
+La Historia de los Mundos, sería un primer proyecto. Pero hay que considerar que este proyecto es para niños, jovenes y adultos que están inmsersos en los video juegos, y que no es fácil sacarlos. Historia de los Mundos es para ellos, porque quizas no hay otra forma de entrar en su realidad. Lamentablemente esto es parte de la gran mayoría de los jovenes y un gran porcentaje de adultos. Y en las nuevas generaciones, esto irá en aumento lamentablemente, incluyendo la madad y pecados que hay en ellos.
 
-Pero mi consejo es el siguiente, si usted es un cristiano Adventista, que conoce la verdad,  y sus niños son aún pequeño y no han tenido contacto aún con videojuegos,  yo le pido encarecidamente que eduque a los niños sin videojuegos, restringiendo lo más posible la tecnología y las pantallas, ya que el enemigo está adoctrinando al mundo con ellos, y creando una generación nueva y muy diferente a cualquier otra generación. Donde la confusión y la oscuridad estará grabada en sus mentes desde pequeño.
+Pero mi consejo es el siguiente, si usted es un cristiano Adventista, que conoce la verdad,  y sus niños son aún pequeño y no han tenido contacto aún con videojuegos,  yo le pido encarecidamente que eduque a los niños sin videojuegos, restringiendo lo más posible la tecnología y las pantallas, ya que el enemigo está adoctrinando al mundo con ellos, y creando una generación nueva y muy diferente a cualquier otra generación. Donde la confusión y la oscuridad estará grabada en sus mentes desde pequeño. Pero si sus hijos, ya están dentro y no sabe como llegar a ellos con el mensaje de salvación, compártale este material, y haga la prueba. Con mucha oración.
 
-Si usted tiene la oportunidad de realizar la Verdadera Educación, tal cual se enseña en los libros de Elena de White, educando en casa, y retirado de las ciudades,  por favor háganlo, y no use este video juego (La Historia de los Mundos).
+Si usted tiene la oportunidad de realizar la Verdadera Educación, tal cual se enseña en los libros de Elena de White, educando en casa, ya sea dentro o fuera de las ciudades,  por favor háganlo, y no use este video juego (La Historia de los Mundos).
+
+La meta de este ministerio es, de forma sutil y continua, mostrarle al jugador que debe dejar de
+ver y practicar el pecado, y que debe ir dejando de apoco lo ficticio y lo irreal, para ir a la naturaleza, a lo real, a lo práctico , al trabajo honrado, a la familia, a la iglesia real. Solo con Jesús se puede hacer todo esto, y solo en Jesús se puede salir de los vicios, por tanto, haremos que el jugador, mientras vaya avanzando en el juego, vaya tomando deciciones respecto al conocimiento de Dios,  las leyes de Dios, y a enamorase más de Jesús, para que le pida ayuda personalmente a el.
+
+El sábado será algo muy importante dentro del juego, ya que (si este proyecto funciona), llegará a la última generación de jovenes, las cuales se enfrentarán a la trama final de la gran controversia, entre Dios y Satanás. Las leyes opresivas y finalmente la Ley dominical, llegará si o si, por tanto, este video juego, es para despertar a la nueva generación, mostrarle la increible realidad de Dios, de los ángeles, de los mandamientos, del cielo nuevo y la tierra nueva, y capacitar a millones que están en las ciudades, en medio de las conmiciones de los últimos días, y que de otra forma no se podría llegar.
 
 <A NAME="piloto">
 ## VERSION PILOTO
@@ -109,9 +116,21 @@ Queremos saber qué opinas de este formato. Es voluntario y anónimo. Nos ayudar
 <A NAME="escribenos">
 ## ESCRÍBENOS
 
-¿Qué te parece este proyecto? ¿Tienes alguna observación?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús?, anímate a escribirnos. 
+¿Qué te parece este proyecto? ¿Tienes alguna observación?, ¿una crítica? ¿O quieres saber más de la Biblia, y su increible historia y conocer más del buen Jesús?, anímate y escribirnos. 
 
 bitleaf@protonmail.com
+
+
+<A NAME="donacion">
+## QUIERES AYUDARNOS CON DONACIONES
+
+El desarrollo de un videojuegos es muy lento y caro. En la creación de estas, generalmente trabajan muchos profesionales con increibles talentos y capacidades artísticas, donde hay inversiones de millones de pesos.  Personalemnte me he hecho el compromiso de que todo sea gratuito y basado en Codigo Libre, y aunque con esto puedo acceder a variadas herramientas gratuitas y ahorrar muchísimo dinero,  es también una forma de acceder a muchas más personas en el mundo. 
+
+ Pero, una sola persona no basta. Solo para finalizar la versión piloto, con el poco tiempo libre que tengo, me he demorado casi 10 meses. Planificar la historia, los tópicos, hacer los dibujos, crear la música, aprender la herramienta de programación, etc., requiere  muchas horas. 
+
+ Si me ayudas, no solamente podrá salir esto más rápido, si no también, adquirir mejores talentos y hacer algo de mucho mayor calidad. Pero todo consagrado al Señor.
+
+Puedes escribirme al correo bitleaf@protonmail.com
 
 ## ALGUNOS SCREENSHOTS
 
