@@ -28,7 +28,12 @@
       <li class="nav-item">
         <a class="nav-link" href="#imagenes">Imágenes del juego</a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="#musica">Escucha la música</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sobremi">Acerca de mi</a>
+      </li>
 
     </ul>
 
@@ -38,7 +43,7 @@
 
 Bienvenido a este interesante proyecto misionero. Una serie de estudios Bíblicos en un formato de video juego tipo Aventura-RPG.
 La finalidad de este video juego es poder llevar de una manera fresca,  no tradicional, e interactiva, las verdades de la Biblia,el mensaje de Jesús, su sacrificio, su inminente regreso, el sábado de descanso, y los 10 mandamientos a las nuevas generaciones de Jóvenes. 
-Queremos llevar el Conflicto de los Siglos a la última generación, a la generación más afectada por los engaños del gran enemigo de Dios. Una generación, que lo ha visto todo, y que está llena de prejuicios y fantasia irreal en sus mentes, por el bombardeo constante de los medios audio visuales modernos.
+Queremos llevar el Conflicto de los Siglos a la última generación, a la generación más afectada por los engaños del gran enemigo de Dios. Una generación, que lo ha visto todo, y que está llena de prejuicios y fantasía irreal en sus mentes, por el bombardeo constante de los medios audio visuales modernos.
 
 <img src="Images/Introv1.JPG"/>
 
@@ -89,13 +94,13 @@ La Historia de los Mundos, contendrá:
 <A NAME="bitleaf">
 ## Ministerio bitLeaf
 
-¿Te imaginas llevar la Biblia y el Conflicto de los Siglos, hacer un estudio bíblico en el própio lenguaje de los jóvenes, a travez de una historia interactiva? Bueno, esto es la misión de bitLeaf.
+¿Te imaginas llevar la Biblia y el Conflicto de los Siglos, en el própio lenguaje de los jóvenes, a travéz de una historia interactiva?, ¿y poder sacar poco a poco a los Jóvenes de ese mundo? Bueno, esto es la misión de bitLeaf.
 
-BitLeaf (suena muy parecido a believe) es un ministerio que tiene por finalidad comunicar rápidamente de Jesús, de su amor, el arrepentimiento genuino, y la vida santa que Dios quiere, pero en un formato contemporáneo, ligado a la naturaleza y a la tecnología interactiva que hoy predomina en el mundo. Pero está destinado a las personas que se han vuelto dependientes a los videojuegos, y no pueden salir. Parece un ministerio extraño, y usted podrá preguntarse ¿podemos usar un video Juego para evangelizar? Pero, dependiendo de la generación a la que usted pertenezca, esta pregunta podrá tenér diferentes respuestas.
+BitLeaf (suena muy parecido a believe) es un ministerio que tiene por finalidad comunicar rápidamente de Jesús, de su amor, el arrepentimiento genuino, y la vida santa que Dios quiere, pero en un formato contemporáneo, ligado a la naturaleza, a las ciencias, la salud y a la tecnología interactiva que hoy predomina en el mundo. Pero está destinado a las personas que se han vuelto dependientes a los videojuegos, y no pueden salir. Parece un ministerio extraño, y usted perfectamente podrá preguntarse ¿podemos usar un video Juego para evangelizar? Pero, dependiendo de la generación a la que usted pertenezca, esta pregunta podrá tenér diferentes respuestas.
 
 La Historia de los Mundos, sería un primer proyecto. Pero hay que considerar que este proyecto es para niños, jovenes y adultos que están inmsersos en los video juegos, y que no es fácil sacarlos. Historia de los Mundos es para ellos, porque quizas no hay otra forma de entrar en su realidad. Lamentablemente esto es parte de la gran mayoría de los jovenes y un gran porcentaje de adultos. Y en las nuevas generaciones, esto irá en aumento lamentablemente, incluyendo la madad y pecados que hay en ellos.
 
-Pero mi consejo es el siguiente, si usted es un cristiano Adventista, que conoce la verdad,  y sus niños son aún pequeño y no han tenido contacto aún con videojuegos,  yo le pido encarecidamente que eduque a los niños sin videojuegos, restringiendo lo más posible la tecnología y las pantallas, ya que el enemigo está adoctrinando al mundo con ellos, y creando una generación nueva y muy diferente a cualquier otra generación. Donde la confusión y la oscuridad estará grabada en sus mentes desde pequeño. Pero si sus hijos, ya están dentro y no sabe como llegar a ellos con el mensaje de salvación, compártale este material, y haga la prueba. Con mucha oración.
+Pero mi consejo es el siguiente, si usted es un cristiano Adventista, que conoce la verdad,  y sus niños son aún pequeño y no han tenido contacto aún con videojuegos,  yo le pido encarecidamente que eduque a los niños sin videojuegos, restringiendo lo más posible la tecnología y las pantallas, ya que el enemigo está adoctrinando al mundo con ellos, y creando una generación nueva y muy diferente a cualquier otra generación. Donde la confusión y la oscuridad estará grabada en sus mentes desde pequeño. Pero si sus hijos, ya están dentro, no sabe como sacarlos y no sabe como llegar a ellos con el mensaje de salvación, compártale este material, y haga la prueba. Con mucha oración.
 
 Si usted tiene la oportunidad de realizar la Verdadera Educación, tal cual se enseña en los libros de Elena de White, educando en casa, ya sea dentro o fuera de las ciudades,  por favor háganlo, y no use este video juego (La Historia de los Mundos).
 
@@ -158,3 +163,13 @@ Puedes escuchar la banda sonora de la Historia de los Mundos, en Sound Cloud.
 <a href="https://soundcloud.com/marlon-llanos-484750041/hostal-del-llamado">Hostal del Llamado</a>
  
  <a href="https://soundcloud.com/marlon-llanos-484750041/una-invitacio-n-fondo">Una Invitación</a>
+
+
+<A NAME="sobremi">
+## ACERCA DE MI
+
+Mi nombre es Marlon Llanos. Soy miembro de la Iglesia Adventista del Séptimo Día por muchos años. Soy Ingeniero en Informática, y solo quiero ayudar con mis talentos a que muchos puedan conocer y aceptar al príncipe del Universo, Jesús. Y su gran sacrificio.
+
+Por años me he preguntado cómo puedo sacar a las nuevas generaciones del inmenso visio de los videojuegos. Yo vengo de ese mundo, y solo Jesús me sacó de ahí, me capacitó pero también me informó. Tuve la gran ventaja de que de niño fuí enseñado en la Biblia (pero lamentablemente millones no han tenido esa bendición), así que cuando desperté del sueño, siendo grande, me di cuenta que además de estar atrapado en un mundo irreal, fictició y oscuro, este mundo digital había robado muchas de las imágenes que Dios usa: ángeles, el cielo, el árbol de la vida, etc., pero sin el verdadero conocimiento de Dios y de Jesús, según enseña la Biblia. Eso hacía que todo esto fuera más exitante, y me dí cuenta que el gran enemigo de Dios, estaba falsificando a Dios y su gran e infinita historia y amor, tal cual lo cuenta su Palabra.
+
+¿Así que, por qué no crear un estudio bíblico en este mismo formato?. ¿Por qué no tener un ministerio que anime a la gente a entrar a estos mundos virtuales, y hablar de la salvación a la gente de forma masiva y única?. Creo que el mensaje puede darse de esta forma, pero siguiendo todas las recomendaciones que Dios deja para predicar el evangelio. Una de ellas es:  "Ir donde la gente está". Y hoy, gran porcentaje de la humanidad está en mundos virtuales, y en mundos de fantasía, lleno de imagenes robadas de la Biblia.
