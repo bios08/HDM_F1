@@ -768,6 +768,16 @@ tile{
   tileset = "indoors_stone",
 }
 
+tile{
+  layer = 1,
+  x = 160,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "255",
+  tileset = "indoors_cabin",
+}
+
 destination{
   name = "saphire_hostal_sub_in",
   layer = 1,

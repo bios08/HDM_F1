@@ -4,6 +4,7 @@ map{ id = "Saphire/Dream1", description = "LLamado 1" }
 map{ id = "Saphire/end_pilot" }
 map{ id = "Saphire/hostal" }
 map{ id = "Saphire/hostal_sub" }
+map{ id = "Saphire/library" }
 map{ id = "blue_port/sapphire_south", description = "City of sapphire south" }
 map{ id = "first_map", description = "First map" }
 

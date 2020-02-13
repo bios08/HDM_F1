@@ -25,6 +25,10 @@
       <li class="nav-item">
         <a class="nav-link" href="#donacion">Donaciones</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#imagenes">Imágenes del juego</a>
+      </li>
+      
 
     </ul>
 
@@ -32,8 +36,9 @@
 </nav>
 
 
-Bienvenido a este interesante proyecto misionero. Una serie de estudios Bíblicos en un formato de video juego tipo Aventura-RPG, .
+Bienvenido a este interesante proyecto misionero. Una serie de estudios Bíblicos en un formato de video juego tipo Aventura-RPG.
 La finalidad de este video juego es poder llevar de una manera fresca,  no tradicional, e interactiva, las verdades de la Biblia,el mensaje de Jesús, su sacrificio, su inminente regreso, el sábado de descanso, y los 10 mandamientos a las nuevas generaciones de Jóvenes. 
+Queremos llevar el Conflicto de los Siglos a la última generación, a la generación más afectada por los engaños del gran enemigo de Dios. Una generación, que lo ha visto todo, y que está llena de prejuicios y fantasia irreal en sus mentes, por el bombardeo constante de los medios audio visuales modernos.
 
 <img src="Images/Introv1.JPG"/>
 
@@ -124,17 +129,32 @@ bitleaf@protonmail.com
 <A NAME="donacion">
 ## QUIERES AYUDARNOS CON DONACIONES
 
-El desarrollo de un videojuegos es muy lento y caro. En la creación de estas, generalmente trabajan muchos profesionales con increibles talentos y capacidades artísticas, donde hay inversiones de millones en dinero y recursos.  Personalemnte me he hecho el compromiso de que todo sea gratuito y basado en Codigo Libre, y aunque con esto puedo acceder a variadas herramientas gratuitas y ahorrar muchísimo dinero,  es también una forma de acceder a muchas más personas en el mundo. (Software Open Source)
+El desarrollo de un videojuegos es muy lento y caro. En la creación de estas, generalmente trabajan muchos profesionales con increibles talentos y capacidades artísticas, donde hay inversiones de millones en dinero y recursos.  Personalemnte me he hecho el compromiso de que todo sea gratuito y basado en Código Libre, y aunque con esto puedo acceder a variadas herramientas gratuitas y ahorrar muchísimo dinero,  es también una forma de acceder a muchas más personas en el mundo. (Software Open Source)
 
- Pero, una sola persona no basta. Solo para finalizar la versión piloto, con el poco tiempo libre que tengo, me he demorado casi 10 meses. Planificar la historia, los tópicos, hacer los dibujos, crear la música, aprender la herramienta de programación, etc., requiere  muchas horas. 
+ Pero, una sola persona no basta. Solo para crear la versión piloto, con el poco tiempo libre que tengo, me he demorado casi 10 meses. Planificar la historia, los tópicos, hacer los dibujos, crear la música, aprender la herramienta de programación, etc., requiere  muchas horas. 
 
  Si me ayudas, no solamente podrá salir esto más rápido, si no también, adquirir mejores talentos y hacer algo de mucho mayor calidad. Pero todo consagrado al Señor.
 
 Puedes escribirme al correo bitleaf@protonmail.com
 
-## ALGUNOS SCREENSHOTS
+<A NAME="imagenes">
+## IMÁGENES DEL JUEGO
 
 <img src="Images/Captura1.JPG"/>
 <img src="Images/Captura2.JPG"/>
 <img src="Images/Captura3.JPG"/>
 <img src="Images/Captura4.JPG"/>
+
+
+<A NAME="musica">
+## MÚSICA DEL JUEGO
+
+Puedes escuchar la banda sonora de la Historia de los Mundos, en Sound Cloud. 
+
+<a href="https://soundcloud.com/marlon-llanos-484750041/el-arbol-de-la-vida">El Árbol de la Vida</a>
+<a href="https://soundcloud.com/marlon-llanos-484750041/en-prados-verdes">En Prados Verdes</a>
+<a href="https://soundcloud.com/marlon-llanos-484750041/el-cumplean-os-de-mi-princesa">Un cumpleaños muy especial</a>
+<a href="https://soundcloud.com/marlon-llanos-484750041/amor-y-obediencia-a-dios">Amor y Obediencia a Dios </a>
+<a href="https://soundcloud.com/marlon-llanos-484750041/hostal-del-llamado">Hostal del Llamado</a>
+ 
+ <a href="https://soundcloud.com/marlon-llanos-484750041/una-invitacio-n-fondo">Una Invitación</a>

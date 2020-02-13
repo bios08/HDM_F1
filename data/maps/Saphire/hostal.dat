@@ -2395,6 +2395,16 @@ tile{
   tileset = "indoors_cabin",
 }
 
+tile{
+  layer = 0,
+  x = 328,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "151",
+  tileset = "indoors_cabin",
+}
+
 destination{
   name = "saphire_hostal_in",
   layer = 0,
@@ -2503,6 +2513,15 @@ sensor{
   y = 117,
   width = 64,
   height = 16,
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 197,
+  sprite = "destructibles/vase",
+  destruction_sound = "bow",
+  damage_on_enemies = 0,
 }
 
 tile{

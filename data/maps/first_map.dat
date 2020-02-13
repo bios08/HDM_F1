@@ -732,7 +732,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 336,
+  x = 328,
   y = 8,
   width = 16,
   height = 16,
@@ -836,7 +836,7 @@ teletransporter{
 
 npc{
   layer = 1,
-  x = 344,
+  x = 360,
   y = 21,
   direction = 3,
   subtype = 1,
