@@ -2,7 +2,7 @@
 ## Encendiendo las luces en lugares difíciles de llegar
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Indice</a>
+  <a class="navbar-brand" href="#">Índice</a>
 
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,7 +32,7 @@
         <a class="nav-link" href="#musica">Escucha la música</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#sobremi">Acerca de mi</a>
+        <a class="nav-link" href="#sobremi">Acerca de mí</a>
       </li>
 
     </ul>
@@ -174,7 +174,7 @@ Puedes escuchar la banda sonora de la Historia de los Mundos, en Sound Cloud.
 
 
 <A NAME="sobremi">
-## ACERCA DE MI
+## ACERCA DE MÍ
 
 Mi nombre es Marlon Llanos. Soy miembro de la Iglesia Adventista del Séptimo Día por muchos años. Soy Ingeniero en Informática, y solo quiero ayudar con mis talentos a que muchos puedan conocer y aceptar al príncipe del Universo, Jesús. Y su gran sacrificio.
 
