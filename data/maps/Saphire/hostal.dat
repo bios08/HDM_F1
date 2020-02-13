@@ -2517,11 +2517,25 @@ sensor{
 
 destructible{
   layer = 0,
-  x = 272,
-  y = 197,
+  x = 80,
+  y = 69,
   sprite = "destructibles/vase",
   destruction_sound = "bow",
   damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 69,
+  sprite = "destructibles/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 69,
+  sprite = "destructibles/vase",
 }
 
 tile{
