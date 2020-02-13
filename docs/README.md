@@ -148,12 +148,11 @@ Puedes escribirme al correo bitleaf@protonmail.com
 <img src="Images/Captura1.JPG"/>
 <img src="Images/Captura2.JPG"/>
 <img src="Images/Cap7.JPG"/>
-<img src="Images/Captura3.JPG"/>
 <img src="Images/Captura4.JPG"/>
-<img src="Images/Cap3.JPG"/>
-<img src="Images/Cap3b.JPG"/>
-<img src="Images/Cap6.JPG"/>
-<img src="Images/Cap8.JPG"/>
+<img src="Images/cap3.JPG"/>
+<img src="Images/cap3b.JPG"/>
+<img src="Images/cap6.JPG"/>
+<img src="Images/cap8.JPG"/>
 
 
 <A NAME="musica">
